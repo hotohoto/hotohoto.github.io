@@ -12,116 +12,43 @@ tags:
   - eclipse
   - IntelliJ
 ---
+Here are my favorite eclipse shortcuts, and their IntelliJ counterparts.
 
+* Close current window* Eclipse: Ctrl + W
 
-<p>
-  Here are my favorite eclipse shortcuts, and their IntelliJ counterparts.
-</p>
+* IntelliJ: Ctrl + F4
 
-<ul>
-  <li>
-    Close current window <ul>
-      <li>
-        Eclipse: Ctrl + W
-      </li>
-      <li>
-        IntelliJ: Ctrl + F4
-      </li>
-    </ul>
-  </li>
+* Go to definition* Eclipse: F3
 
-  <li>
-    Go to definition <ul>
-      <li>
-        Eclipse: F3
-      </li>
-      <li>
-        IntelliJ: Ctrl + B
-      </li>
-    </ul>
-  </li>
+* IntelliJ: Ctrl + B
 
-  <li>
-    Go back to the location where I was <ul>
-      <li>
-        Eclipse: Alt + ←
-      </li>
-      <li>
-        IntelliJ: Alt + N, B <ul>
-          <li>
-            (Go to the last editing location ) Ctrl + Shift + Backspace
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
+* Go back to the location where I was* Eclipse: Alt + ←
 
-  <li>
-    Redo <ul>
-      <li>
-        Eclipse: Ctrl + Y
-      </li>
-      <li>
-        IntelliJ: Ctrl + Shift + Z
-      </li>
-    </ul>
-  </li>
+* IntelliJ: Alt + N, B* (Go to the last editing location ) Ctrl + Shift + Backspace
 
-  <li>
-    Quick fix <ul>
-      <li>
-        Eclipse: Ctrl + 1
-      </li>
-      <li>
-        IntelliJ: Alt + Enter
-      </li>
-    </ul>
-  </li>
+* Redo* Eclipse: Ctrl + Y
 
-  <li>
-    Rename <ul>
-      <li>
-        Eclipse: Alt + Shift + R
-      </li>
-      <li>
-        IntelliJ: Shift + F6
-      </li>
-    </ul>
-  </li>
+* IntelliJ: Ctrl + Shift + Z
 
-  <li>
-    Organize imports <ul>
-      <li>
-        Eclipse: Ctrl + Shift + O
-      </li>
-      <li>
-        IntelliJ: Ctrl + Alt + O
-      </li>
-    </ul>
-  </li>
+* Quick fix* Eclipse: Ctrl + 1
 
-  <li>
-    Show in &#8230; <ul>
-      <li>
-        Eclipse: Alt + Shift + W
-      </li>
-      <li>
-        IntelliJ: Alt + F1
-      </li>
-    </ul>
-  </li>
-</ul>
+* IntelliJ: Alt + Enter
 
-<p>
-  (I am going to add items to this list just for my personal needs.)
-</p>
+* Rename* Eclipse: Alt + Shift + R
 
-<p>
-  Ref.
-</p>
+* IntelliJ: Shift + F6
 
-<ul>
-  <li>
-    https://confluence.jetbrains.com/display/IntelliJIDEA/Configure+Keymap
-  </li>
-</ul>
+* Organize imports* Eclipse: Ctrl + Shift + O
+
+* IntelliJ: Ctrl + Alt + O
+
+* Show in ...* Eclipse: Alt + Shift + W
+
+* IntelliJ: Alt + F1
+
+(I am going to add items to this list just for my personal needs.)
+
+Ref.
+
+* https://confluence.jetbrains.com/display/IntelliJIDEA/Configure+Keymap
+

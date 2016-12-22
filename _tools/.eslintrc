@@ -1,0 +1,14 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : [
+    "standard"
+  ],
+  "env"     : {
+    "node" : true
+  },
+  "rules": {
+    "semi" : ["error", "never"],
+    "max-len": ["error", {"code": 120, "tabWidth": 2}],
+    "arrow-parens": ["error", "as-needed"]
+  }
+}

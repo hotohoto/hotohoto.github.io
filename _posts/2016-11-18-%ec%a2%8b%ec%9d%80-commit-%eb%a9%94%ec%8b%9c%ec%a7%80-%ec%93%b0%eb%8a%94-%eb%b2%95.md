@@ -11,31 +11,19 @@ categories:
 tags:
   - git
 ---
+출처:[http://chris.beams.io/posts/git-commit/](http://chris.beams.io/posts/git-commit/)
 
-<p>
-  출처: <a href="http://chris.beams.io/posts/git-commit/">http://chris.beams.io/posts/git-commit/</a>
-</p>
+* 제목과 본문 사이에 빈줄을 넣어 분리하라
 
-<ol>
-  <li>
-    제목과 본문 사이에 빈줄을 넣어 분리하라
-  </li>
-  <li>
-    제목은 50자 내로 하라
-  </li>
-  <li>
-    제목 첫글자는 대문자로 하라
-  </li>
-  <li>
-    제목 끝에 마침표를 찍지 마라
-  </li>
-  <li>
-    제목은 명령문으로 쓰라
-  </li>
-  <li>
-    본문의 너비는 72자로 해라. 적당히 줄이 바꿔지도록 작성하라.
-  </li>
-  <li>
-    본문에는 <code>무엇을</code>, <code>왜</code>, <code>어떻게</code> 했는지 쓰라.
-  </li>
-</ol>
+* 제목은 50자 내로 하라
+
+* 제목 첫글자는 대문자로 하라
+
+* 제목 끝에 마침표를 찍지 마라
+
+* 제목은 명령문으로 쓰라
+
+* 본문의 너비는 72자로 해라. 적당히 줄이 바꿔지도록 작성하라.
+
+* 본문에는무엇을,왜,어떻게했는지 쓰라.
+

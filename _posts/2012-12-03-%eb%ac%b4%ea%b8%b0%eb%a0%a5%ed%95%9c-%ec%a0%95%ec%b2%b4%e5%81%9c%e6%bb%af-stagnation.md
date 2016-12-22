@@ -9,168 +9,73 @@ permalink: '/2012/12/%eb%ac%b4%ea%b8%b0%eb%a0%a5%ed%95%9c-%ec%a0%95%ec%b2%b4%e5%
 categories:
   - diary
 ---
+지금은 목표도 없고 꿈도 없다.
 
+탈출구도 없고, 착한 것도 없다.
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  지금은 목표도 없고 꿈도 없다.
-</p>
+일상에 취해서,
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  탈출구도 없고, 착한 것도 없다.
-</p>
+그렇게 살 수 있을 것도 같지만,,
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  일상에 취해서,
-</p>
+보람이 없어, 허무함에 돌아올 나다.
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  그렇게 살 수 있을 것도 같지만,,
-</p>
+그렇다고 나에게 어떤 열정도 없기에,,
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  보람이 없어, 허무함에 돌아올 나다.
-</p>
+어디가서 뭐라할 용기도 없다.
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  그렇다고 나에게 어떤 열정도 없기에,,
-</p>
+빨리 그날이 왔으면 좋겠다고 말하지만,
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  어디가서 뭐라할 용기도 없다.
-</p>
+종로의 인경을 두개골이 깨지도록 들이박을,,,,
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  빨리 그날이 왔으면 좋겠다고 말하지만,
-</p>
+내 가죽을 벗겨 북을 만들어 우렁찬 소리를 낼,,,,
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  종로의 인경을 두개골이 깨지도록 들이박을,,,,
-</p>
+그런 용기는 없다.
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  내 가죽을 벗겨 북을 만들어 우렁찬 소리를 낼,,,,
-</p>
+지금도 그렇고 앞으로도 그럴것만 같다...
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  그런 용기는 없다.
-</p>
+난 아버지 것인데,,아버지께서 뭘 기대하시는지 모르겠다고,,
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  지금도 그렇고 앞으로도 그럴것만 같다&#8230;
-</p>
+그저 채념할 뿐.
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  &nbsp;
-</p>
+===========================
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  난 아버지 것인데,,아버지께서&nbsp;뭘 기대하시는지 모르겠다고,,
-</p>
+그날이 오면
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  그저 채념할 뿐.
-</p>
+/심훈
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  &nbsp;
-</p>
+그날이 오면 그날이 오면은
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  ===========================
-</p>
+삼각산이 일어나 더덩실 춤이라도 추고
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  &nbsp;
-</p>
+한강 물이 뒤집혀 용솟음칠 그날이
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  그날이 오면
-</p>
+이 목숨이 끊기기 전에 와 주기만 할 양이면
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  /심훈
-</p>
+나는 밤하늘에 날으는 까마귀와 같이
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  &nbsp;
-</p>
+종로의 인경을 머리로 들이받아 울리오리다.
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  그날이 오면 그날이 오면은
-</p>
+두개골은 깨어져 산산조각이 나도
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  삼각산이 일어나 더덩실 춤이라도 추고
-</p>
+기뻐서 죽사오매 오히려 무슨 한이 남으오리까.
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  한강 물이 뒤집혀 용솟음칠 그날이
-</p>
+그날이 와서 오오 그날이 와서
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  이 목숨이 끊기기 전에 와 주기만 할 양이면
-</p>
+육조(六曹) 앞 길을 울며 뛰며 뒹굴어도
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  나는 밤하늘에 날으는 까마귀와 같이
-</p>
+그래도 넘치는 기쁨에 가슴이 미어질 듯하거든
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  종로의 인경을 머리로 들이받아 울리오리다.
-</p>
+드는 칼로 이 몸의 가죽이라도 벗겨서
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  두개골은 깨어져 산산조각이 나도
-</p>
+커다란 북을 만들어 들쳐 메고는
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  기뻐서 죽사오매 오히려 무슨 한이 남으오리까.
-</p>
+여러분의 행렬에 앞장을 서오리다.
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  &nbsp;
-</p>
+우렁찬 그 소리를 한 번이라도 듣기만 하면
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  그날이 와서 오오 그날이 와서
-</p>
+그 자리에 거꾸러져도 눈을 감겠소이다.
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  육조(六曹) 앞 길을 울며 뛰며 뒹굴어도
-</p>
+[출처] 심훈의 '그날이 오면'
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  그래도 넘치는 기쁨에 가슴이 미어질 듯하거든
-</p>
+===========================
 
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  드는 칼로 이 몸의 가죽이라도 벗겨서
-</p>
-
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  커다란 북을 만들어 들쳐 메고는
-</p>
-
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  여러분의 행렬에 앞장을 서오리다.
-</p>
-
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  우렁찬 그 소리를 한 번이라도 듣기만 하면
-</p>
-
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  그 자리에 거꾸러져도 눈을 감겠소이다.
-</p>
-
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  [출처] 심훈의 &#8216;그날이 오면&#8217;
-</p>
-
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  &nbsp;
-</p>
-
-<p style="margin: 0px; padding: 0px; color: rgb(64, 64, 64); text-align: justify;">
-  ===========================
-</p>
