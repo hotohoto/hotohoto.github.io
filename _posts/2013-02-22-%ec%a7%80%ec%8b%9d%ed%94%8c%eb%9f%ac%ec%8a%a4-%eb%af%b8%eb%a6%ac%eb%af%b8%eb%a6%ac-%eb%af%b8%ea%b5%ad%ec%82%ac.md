@@ -9,7 +9,7 @@ permalink: '/2013/02/%ec%a7%80%ec%8b%9d%ed%94%8c%eb%9f%ac%ec%8a%a4-%eb%af%b8%eb%
 categories:
   - review
 ---
-[http://book.naver.com/bookdb/book_detail.php?bid=2690805](http://book.naver.com/bookdb/book_detail.php?bid=2690805)미리미리 미국사
+[미리미리 미국사](http://book.naver.com/bookdb/book_detail.php?bid=2690805)
 
 작가
 
@@ -23,7 +23,7 @@ categories:
 
 2007.02.15
 
-[http://book.naver.com/bookdb/review.nhn?bid=2690805](http://book.naver.com/bookdb/review.nhn?bid=2690805)리뷰보기
+[리뷰보기](http://book.naver.com/bookdb/review.nhn?bid=2690805)
 
 영국과 프랑스는 북아메리카 대륙을 식민지 삼으려고 다퉜으며 영국이 전쟁에서 승리하였다.
 
@@ -66,4 +66,3 @@ categories:
 레이건은 헐리우드 영화배우 출신이다.
 
 워터게이트는 당시 대선 때 선거관리위원회가 있었던 호텔 이름이다. 여기에 도청장치를 설치했다가 문제가 되었다는,,
-

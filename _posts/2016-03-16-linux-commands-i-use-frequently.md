@@ -10,15 +10,16 @@ categories:
   - dev
 ---
 ### :common shell technics (pipe and redirection)
-
+```
 command_to_run | grep text_to_find
 
 command_to_run | more
 
 command_to_runfile_to_write_ouput.txt
+```
 
 ### :Reading or Editing a file
-
+```
 less abc.txt
 
 vim abc.txt
@@ -28,9 +29,10 @@ tail -f abc.txt
 head abc.txt
 
 cat abc.txt
+```
 
 ### :Searching text in files
-
+```
 grep text_to_search -rniH .
 
 ### :Managing files
@@ -56,9 +58,10 @@ touch filename
 tar cvzf abc.tgz source_folder_name_or_Filename
 
 tar xvzf abc.tgz
+```
 
 ### :Etc.
-
+```
 ps -ef
 
 netstat -an
@@ -92,4 +95,4 @@ top
 service network restart
 
 source env_file_to_run
-
+```

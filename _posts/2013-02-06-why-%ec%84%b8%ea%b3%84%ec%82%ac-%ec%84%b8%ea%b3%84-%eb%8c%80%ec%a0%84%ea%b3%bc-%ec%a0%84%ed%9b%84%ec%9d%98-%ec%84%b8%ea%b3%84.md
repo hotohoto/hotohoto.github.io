@@ -9,7 +9,8 @@ permalink: '/2013/02/why-%ec%84%b8%ea%b3%84%ec%82%ac-%ec%84%b8%ea%b3%84-%eb%8c%8
 categories:
   - review
 ---
-[http://book.naver.com/bookdb/book_detail.php?bid=6264922](http://book.naver.com/bookdb/book_detail.php?bid=6264922)![](http://bookthumb.phinf.naver.net/cover/062/649/06264922.jpg?type=w150&udate=20110824)[http://book.naver.com/bookdb/book_detail.php?bid=6264922](http://book.naver.com/bookdb/book_detail.php?bid=6264922)WHY 세계사
+![](http://bookthumb.phinf.naver.net/cover/062/649/06264922.jpg?type=w150&udate=20110824)
+[WHY 세계사](http://book.naver.com/bookdb/book_detail.php?bid=6264922)
 
 작가
 
@@ -23,7 +24,7 @@ categories:
 
 2010.04.10
 
-[http://book.naver.com/bookdb/review.nhn?bid=6264922](http://book.naver.com/bookdb/review.nhn?bid=6264922)리뷰보기
+[리뷰보기](http://book.naver.com/bookdb/review.nhn?bid=6264922)
 
 C&C는 1차대전을 배경으로한다. 동맹국 vs 연합국
 
@@ -48,4 +49,3 @@ C&C는 1차대전을 배경으로한다. 동맹국 vs 연합국
 히로시마와 나가사키에 떨어진 폭탄은 다른 종류였다.
 
 2차 대전 후 UN에서는 강대국이 포함된 안보리의 결성으로 전보다 영향력이 세졌다.
-

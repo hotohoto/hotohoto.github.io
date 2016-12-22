@@ -31,7 +31,9 @@ NPM 이 느리다고 생각해서 나온게 YARN 이다.
 
 # Express.js (웹서버)
 
-Node.js에서는 http 라이브러리를 써서 쉽게 웹서버를 만들어볼 수도 있다.[https://www.sitepoint.com/creating-a-http-server-in-node-js/](https://www.sitepoint.com/creating-a-http-server-in-node-js/)
+Node.js에서는 http 라이브러리를 써서 쉽게 웹서버를 만들어볼 수도 있다.
+
+[https://www.sitepoint.com/creating-a-http-server-in-node-js/](https://www.sitepoint.com/creating-a-http-server-in-node-js/)
 
 그래도 웹서버가 하는 일이 많아서 그냥 저렇게 손코딩하는것은 오바다. 찾아보니 여러가지가 많다.. Hapi, Express.js, Restify, Koa 등. 그런데 express 는 나중에 Node.js 자체에도 포함된 예정이라고 하니 일단 express 를 쓰기로 한다.
 
@@ -43,7 +45,9 @@ ES2015에서는 var 과 비슷한 const 와 let이 있다. const는 상수, let�
 
 그리고  ES2015에서는 함수를 이렇게 정의할 수 있다.
 
+```javascript
 const sum = (a,b) =a+b
+```
 
 function 키워드하고는 살짝 다르지만 거의 똑같다고 보면된다.
 
@@ -71,7 +75,9 @@ Polyfill 은 언어 명세보다는,, 기본적인 라이브러리 같은것들
 
 그밖에 이미지 파일이나 css 파일 같은것들도 Javascript 코드의 일부이냥 가져다 쓸수 있게 해준다.
 
-import animalImage  from 'static/animalImage.jpg'
+```javascript
+import animalImage from 'static/animalImage.jpg'
+```
 
 # React with JSX (뷰 프레임워크)
 
@@ -83,7 +89,9 @@ import animalImage  from 'static/animalImage.jpg'
 
 React를 사용하여 UI 컴포넌트 단위로 개발하고 싶은데,, CSS에서 사용하는 class값 같은 것들이 충돌이나면 화면이 깨질텐데 어떻게 하지? 그래서 나온게 이녀석들이다. class값을 이녀석들에서 불러와 사용하면 Webpack이 나중에 해당  클래스 이름을 충돌이 안나게 적당히 바꿔줄 것이다.
 
+```javascript
 import classes from 'myPage.scss'
+```
 
 # Redux (데이터 전달 방향에 대한 정의)
 
@@ -109,7 +117,14 @@ store에 저장된 상태 값이다.
 
 action은 state를 바꾸는 정보를 가지고 있는 객체이다.
 
-{id: 'SET_USER_NAME', payload: {name: 'James'}}
+```javascript
+{
+  id: 'SET_USER_NAME',
+  payload: {
+    name: 'James'
+  }
+}
+```
 
 이런식이다.
 
@@ -123,15 +138,20 @@ state를 바꾸는 방법은 action을 store에 dispatch 하는 방법 밖에 �
 
 store의 dispatch 함수에는 action이 아닌 다른 값도 인자로 전달할 수 있다. store에 thunk middleware 라는 것을 등록하고 같은 함수를 리턴하는 함수를 인자로 dispatch하면 비동기적인 처리를 할수 있다. 아래와 같은 녀석으로 dispatch를 불러주는 것이다.
 
-((a,b,c) ={
+```javascript
+(
+  (a,b,c) => {
 
-return (dispatch, getState) ={
+    return (dispatch, getState) => {
 
-// 여기서 어떤 동작을하고 나서, action을 만들어 dispatch해준다.
+    // 여기서 어떤 동작을 하고 나서, action을 만들어 dispatch 해준다.
 
-// 이 안에서 promise 를 사용하는 경우가 많다.
+    // 이 안에서 promise 를 사용하는 경우가 많다.
 
-} })
+    }
+  }
+)
+```
 
 여기서 내부의 동작을 정의한 함수 부분을 thunk라고 부른다. 이 thunk를 처리한다고 하여 thunk middleware 라고 이름 지었다.
 
@@ -154,4 +174,3 @@ return (dispatch, getState) ={
 [https://github.com/davezuko/react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit)
 
 (틀린 내용은 알려주시길~)
-

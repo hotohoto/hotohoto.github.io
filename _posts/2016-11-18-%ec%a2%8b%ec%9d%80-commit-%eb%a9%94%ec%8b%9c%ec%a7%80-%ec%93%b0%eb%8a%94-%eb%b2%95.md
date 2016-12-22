@@ -11,7 +11,7 @@ categories:
 tags:
   - git
 ---
-출처:[http://chris.beams.io/posts/git-commit/](http://chris.beams.io/posts/git-commit/)
+출처: [http://chris.beams.io/posts/git-commit/](http://chris.beams.io/posts/git-commit/)
 
 * 제목과 본문 사이에 빈줄을 넣어 분리하라
 
@@ -26,4 +26,3 @@ tags:
 * 본문의 너비는 72자로 해라. 적당히 줄이 바꿔지도록 작성하라.
 
 * 본문에는무엇을,왜,어떻게했는지 쓰라.
-

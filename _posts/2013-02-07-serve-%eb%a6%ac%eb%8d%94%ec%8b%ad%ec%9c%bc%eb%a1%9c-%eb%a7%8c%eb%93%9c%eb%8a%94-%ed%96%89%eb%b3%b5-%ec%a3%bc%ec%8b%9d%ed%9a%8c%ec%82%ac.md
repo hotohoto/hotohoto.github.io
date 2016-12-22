@@ -9,7 +9,8 @@ permalink: '/2013/02/serve-%eb%a6%ac%eb%8d%94%ec%8b%ad%ec%9c%bc%eb%a1%9c-%eb%a7%
 categories:
   - review
 ---
-[http://book.naver.com/bookdb/book_detail.php?bid=2505551](http://book.naver.com/bookdb/book_detail.php?bid=2505551)![](http://bookthumb.phinf.naver.net/cover/025/055/02505551.jpg?type=w150&udate=20120428)[http://book.naver.com/bookdb/book_detail.php?bid=2505551](http://book.naver.com/bookdb/book_detail.php?bid=2505551)SERVE 리더십으로 만드는 행복 주식회사
+![](http://bookthumb.phinf.naver.net/cover/025/055/02505551.jpg?type=w150&udate=20120428)
+[SERVE 리더십으로 만드는 행복 주식회사](http://book.naver.com/bookdb/book_detail.php?bid=2505551)
 
 작가
 
@@ -23,7 +24,7 @@ categories:
 
 2006.07.30
 
-[http://book.naver.com/bookdb/review.nhn?bid=2505551](http://book.naver.com/bookdb/review.nhn?bid=2505551)리뷰보기
+[리뷰보기](http://book.naver.com/bookdb/review.nhn?bid=2505551)
 
 기본적으로 리더는 그룹을 섬기는 자이다.
 
@@ -52,4 +53,3 @@ Embody the Values (가치를 구현하라)
 리더가 제시한 목표와 가치를 실제로 리더가 추구하려고 노력하고 있음을 보여주어,
 
 구성원들의 신뢰를 얻어야 한다.
-

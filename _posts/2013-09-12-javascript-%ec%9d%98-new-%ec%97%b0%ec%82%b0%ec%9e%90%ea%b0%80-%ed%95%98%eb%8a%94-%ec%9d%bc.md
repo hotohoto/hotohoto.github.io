@@ -11,7 +11,9 @@ categories:
 ---
 javascript 의 new 연산자가 하는 일을 설명하면 다음과 같다.
 
-new C(arg1, arg2);
+```
+new C(arg1, arg2)
+```
 
 라는 표현이 있다고 하자. (여기서 C는 미리 정의된 어떤 함수이다)
 
@@ -32,4 +34,3 @@ javascript 엔진은 내부적으로 다음과 같은 일을 한다.
 [http://stackoverflow.com/questions/6750880/javascript-how-does-new-work-internally](http://stackoverflow.com/questions/6750880/javascript-how-does-new-work-internally)
 
 [http://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript](http://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript)
-

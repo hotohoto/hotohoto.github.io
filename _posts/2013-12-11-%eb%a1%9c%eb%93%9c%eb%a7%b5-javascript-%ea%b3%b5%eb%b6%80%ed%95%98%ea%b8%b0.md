@@ -13,13 +13,13 @@ C와 Java로 개발하는 회사에 다니다가, 처음으로 웹개발 하�
 
 1 단계 - 자바스크립트 기본 문법, DOM
 
-[http://www.w3schools.com/js/](http://www.w3schools.com/js/)http://www.w3schools.com/js/
+[http://www.w3schools.com/js/](http://www.w3schools.com/js/)
 
 영어로 된 사이트인데, 예제위주로 보면 됩니다.
 
 2 단계 - jQuery
 
-[http://www.w3schools.com/jquery/default.asp](http://www.w3schools.com/jquery/default.asp)http://www.w3schools.com/jquery/default.asp
+[http://www.w3schools.com/jquery/default.asp](http://www.w3schools.com/jquery/default.asp)
 
 같은 사이트입니다.
 
@@ -31,7 +31,7 @@ C와 Java로 개발하는 회사에 다니다가, 처음으로 웹개발 하�
 
 3 단계 - 자바스크립트 고급 문법 이해
 
-[http://ejohn.org/apps/learn/](http://ejohn.org/apps/learn/)http://ejohn.org/apps/learn/
+[http://ejohn.org/apps/learn/](http://ejohn.org/apps/learn/)
 
 여기서부터는 약간 어렵습니다.
 
@@ -39,9 +39,9 @@ C와 Java로 개발하는 회사에 다니다가, 처음으로 웹개발 하�
 
 4 단계 - jQuery 플러그인 만들기.
 
-[http://learn.jquery.com/plugins/basic-plugin-creation/](http://learn.jquery.com/plugins/basic-plugin-creation/)http://learn.jquery.com/plugins/basic-plugin-creation/
+[http://learn.jquery.com/plugins/basic-plugin-creation/](http://learn.jquery.com/plugins/basic-plugin-creation/)
 
-[http://learn.jquery.com/plugins/advanced-plugin-concepts/](http://learn.jquery.com/plugins/advanced-plugin-concepts/)http://learn.jquery.com/plugins/advanced-plugin-concepts/
+[http://learn.jquery.com/plugins/advanced-plugin-concepts/](http://learn.jquery.com/plugins/advanced-plugin-concepts/)
 
 자신이 이해한 것에 대한 실습 차원에서 개인적으로 jQuery 플러그인을 만들어볼 것을 추천합니다.
 
@@ -66,4 +66,3 @@ P.S.
 요즘 node.js 도 뜨고 있지만, 간단한 줄 알았던 자바스크립트는 사실 활용 가능성도 높고, 이해해야할 깊이가 만만치 않은것 같습니다. 저도 아직 가야할 길이 한참 멀지만, 지금까지 공부했던것 정리차원에서 공유합니다.
 
 그리고, 개발자에게 영어공부는 필수.
-

@@ -14,41 +14,43 @@ tags:
 ---
 Here are my favorite eclipse shortcuts, and their IntelliJ counterparts.
 
-* Close current window* Eclipse: Ctrl + W
+* Close current window
+  * Eclipse: `Ctrl + W`
+  * IntelliJ: `Ctrl + F4`
 
-* IntelliJ: Ctrl + F4
+* Go to definition
+  * Eclipse: `F3`
+  * IntelliJ: `Ctrl + B`
 
-* Go to definition* Eclipse: F3
+* Go back to the location where I was at
+  * Eclipse: `Alt + ←``
+  * IntelliJ: `Alt + N, B`
 
-* IntelliJ: Ctrl + B
+* Go to the last editing location
+  * IntelliJ: `Ctrl + Shift + Backspace`
 
-* Go back to the location where I was* Eclipse: Alt + ←
+* Redo
+  * Eclipse: `Ctrl + Y`
+  * IntelliJ: `Ctrl + Shift + Z`
 
-* IntelliJ: Alt + N, B* (Go to the last editing location ) Ctrl + Shift + Backspace
+* Quick fix
+  * Eclipse: `Ctrl + 1`
+  * IntelliJ: `Alt + Enter`
 
-* Redo* Eclipse: Ctrl + Y
+* Rename
+  * Eclipse: `Alt + Shift + R`
+  * IntelliJ: `Shift + F6`
 
-* IntelliJ: Ctrl + Shift + Z
+* Organize imports
+  * Eclipse: `Ctrl + Shift + O`
+  * IntelliJ: `Ctrl + Alt + O`
 
-* Quick fix* Eclipse: Ctrl + 1
-
-* IntelliJ: Alt + Enter
-
-* Rename* Eclipse: Alt + Shift + R
-
-* IntelliJ: Shift + F6
-
-* Organize imports* Eclipse: Ctrl + Shift + O
-
-* IntelliJ: Ctrl + Alt + O
-
-* Show in ...* Eclipse: Alt + Shift + W
-
-* IntelliJ: Alt + F1
+* Show in ...
+  * Eclipse: `Alt + Shift + W`
+  * IntelliJ: `Alt + F1`
 
 (I am going to add items to this list just for my personal needs.)
 
 Ref.
 
-* https://confluence.jetbrains.com/display/IntelliJIDEA/Configure+Keymap
-
+* [https://confluence.jetbrains.com/display/IntelliJIDEA/Configure+Keymap](https://confluence.jetbrains.com/display/IntelliJIDEA/Configure+Keymap)

@@ -18,121 +18,30 @@ tags:
   - Unicode
   - 통합완성형한글
 ---
+
 [1] 요약
 
-인코딩
+| 인코딩 (코드페이지) | 자바의 대응 인코딩 | 문자셋 | 비고 |
+| -------------- | ------------- | ----- | ----|
+| ASCII = US-ASCII | US-ASCII | (인코딩과 동일) | 기본적으로 0~127까지의 7bit 임. |
+| ISO 8859-1 | ISO 8859-1 | | 8bit 코드. 확장(extended) ASCII 의 일종으로 분류하기도 함. |
+| windows-1252 = cp-1252 | windows-1252 | | 8bit 코드. 영문 윈도우에 기본적으로 사용되는 인코딩(?) |
+| euc-kr | EUC-KR | ks x 1001 = ks c 5601 | 한글 2350자 |
+| (windows 95 이전 cp949) | x-IBM949 = Cp949 또는 x-IBM949C = Cp949C | | 한글 2620자. euc-kr 에 비해 한글은 추가되었고, 특수문자, 한자의 포함여부가 약간 차이가 난다. x-IBM949C는 xIBM949와달리  0x5c이 원화표시가 아닌 역슬래시를 (\) 의미함. |
+| windows-949 = ms-949 = cp-949 | x-windows-949 = MS949 | UHC(Unified Hangul Code) = 확장 완성형 = 통합형 한글 코드 | 한글 11172자 (ks X 1001 에 8822자 추가). IANA에 등록되어 있지 않아서 통신용으로 사용할 수 없음. |
+| utf-8, utf-16le, utf-16be, utf-32le, utf-32be |  UTF-8, UTF-16, UTF-16BE, UTF-16LE, UTF-32, UTF-32BE, UTF-32LE |  ? | 유니코드. |
 
-(코드페이지)
 
-자바의 대응
 
-인코딩
 
-문자셋
 
-비고
 
-ASCII
 
-=US-ASCII
 
-US-ASCII
 
-(인코딩과 동일)
 
-기본적으로 0~127까지의 7bit 임.
 
-ISO 8859-1
 
-ISO-8859-1
-
-8bit 코드.
-
-확장(extended) ASCII 의 일종으로 분류하기도 함.
-
-windows-1252 = cp-1252
-
-windows-1252
-
-8bit 코드.
-
-영문 윈도우에 기본적으로 사용되는 인코딩(?)
-
-euc-kr
-
-EUC-KR
-
-ks x 1001
-
-=ks c 5601
-
-한글 2350자
-
-(windows 95 이전 cp949)
-
-x-IBM949
-
-= Cp949
-
-또는
-
-x-IBM949C
-
-= Cp949C
-
-한글 2620자.
-
-euc-kr 에 비해 한글은 추가되었고, 특수문자, 한자의 포함여부가 약간 차이가 난다. x-IBM949C는 xIBM949와달리  0x5c이 원화표시가 아닌 역슬래시를 (\) 의미함.
-
-windows-949
-
-= ms-949
-
-= cp-949
-
-x-windows-949
-
-= MS949
-
-UHC(Unified Hangul Code)
-
-= 확장 완성형
-
-= 통합형 한글 코드
-
-한글 11172자
-
-(ks X 1001 에 8822자 추가)
-
-IANA에 등록되어 있지 않아서 통신용으로 사용할 수 없음.
-
-utf-8
-
-utf-16le
-
-utf-16be
-
-utf-32le
-
-utf-32be
-
-UTF-8
-
-UTF-16
-
-UTF-16BE
-
-UTF-16LE
-
-UTF-32
-
-UTF-32BE
-
-UTF-32LE
-
-UCS
-
-유니코드.
 
 [2] 부연 설명
 
@@ -164,13 +73,13 @@ UCS
 
 그리고 EUC-KR, x-IBM949, x-windows-949 의 문자셋의 범위를 확인하기 위해 유니코드를 기준으로 어떤 문자가 포함되어있고 어떤 문자는 빠져있는지 아래에 작성한 프로그램으로 테스트 해보았습니다.
 
-[http://hotohoto82.cafe24.com/wp-content/uploads/1/cfile26.uf.267CB04E537C486F225CC5.java](http://hotohoto82.cafe24.com/wp-content/uploads/1/cfile26.uf.267CB04E537C486F225CC5.java)EncodingTest3.java
+[EncodingTest3.java](http://hotohoto82.cafe24.com/wp-content/uploads/1/cfile26.uf.267CB04E537C486F225CC5.java)
 
-[http://hotohoto82.cafe24.com/wp-content/uploads/1/cfile29.uf.2733504E537C4870034E4F.txt](http://hotohoto82.cafe24.com/wp-content/uploads/1/cfile29.uf.2733504E537C4870034E4F.txt)EUC-KR.txt
+[EUC-KR.txt](http://hotohoto82.cafe24.com/wp-content/uploads/1/cfile29.uf.2733504E537C4870034E4F.txt)
 
-[http://hotohoto82.cafe24.com/wp-content/uploads/1/cfile5.uf.233F194E537C487030D1B6.txt](http://hotohoto82.cafe24.com/wp-content/uploads/1/cfile5.uf.233F194E537C487030D1B6.txt)x-IBM949.txt
+[x-IBM949.txt](http://hotohoto82.cafe24.com/wp-content/uploads/1/cfile5.uf.233F194E537C487030D1B6.txt)
 
-[http://hotohoto82.cafe24.com/wp-content/uploads/1/cfile3.uf.2260D74E537C487013D055.txt](http://hotohoto82.cafe24.com/wp-content/uploads/1/cfile3.uf.2260D74E537C487013D055.txt)x-windows-949.txt
+[x-windows-949.txt](http://hotohoto82.cafe24.com/wp-content/uploads/1/cfile3.uf.2260D74E537C487013D055.txt)
 
 첨부해드린 파일을 Winmerge 등의 툴을 사용해서 확인해보시면 명확하게 파악하실 수 있으실것 같네요.
 
@@ -178,31 +87,30 @@ UCS
 
 (특히 아래 세가지는 한글 인코딩/문자셋에 개념을 잡아주는데 좋은 글입니다.)
 
-[http://helloworld.naver.com/helloworld/19187](http://helloworld.naver.com/helloworld/19187)http://helloworld.naver.com/helloworld/19187
+[http://helloworld.naver.com/helloworld/19187](http://helloworld.naver.com/helloworld/19187)
 
-[http://helloworld.naver.com/helloworld/76650](http://helloworld.naver.com/helloworld/76650)http://helloworld.naver.com/helloworld/76650
+[http://helloworld.naver.com/helloworld/76650](http://helloworld.naver.com/helloworld/76650)
 
 [http://jinuine.blogspot.kr/2013/09/ms949.html](http://jinuine.blogspot.kr/2013/09/ms949.html)
 
 (아래는 정리하면서 함께 참고한 글들입니다.)
 
-[http://ko.wikipedia.org/wiki/KS_X_1001](http://ko.wikipedia.org/wiki/KS_X_1001)http://ko.wikipedia.org/wiki/KS_X_1001
+[http://ko.wikipedia.org/wiki/KS_X_1001](http://ko.wikipedia.org/wiki/KS_X_1001)
 
-[http://ko.wikipedia.org/wiki/KS_X_1003](http://ko.wikipedia.org/wiki/KS_X_1003)http://ko.wikipedia.org/wiki/KS_X_1003
+[http://ko.wikipedia.org/wiki/KS_X_1003](http://ko.wikipedia.org/wiki/KS_X_1003)
 
-[http://ko.wikipedia.org/wiki/EUC-KR](http://ko.wikipedia.org/wiki/EUC-KR)http://ko.wikipedia.org/wiki/EUC-KR
+[http://ko.wikipedia.org/wiki/EUC-KR](http://ko.wikipedia.org/wiki/EUC-KR)
 
-[http://ko.wikipedia.org/wiki/%EC%BD%94%EB%93%9C_%ED%8E%98%EC%9D%B4%EC%A7%80_949](http://ko.wikipedia.org/wiki/%EC%BD%94%EB%93%9C_%ED%8E%98%EC%9D%B4%EC%A7%80_949)http://ko.wikipedia.org/wiki/%EC%BD%94%EB%93%9C_%ED%8E%98%EC%9D%B4%EC%A7%80_949
+http://ko.wikipedia.org/wiki/%EC%BD%94%EB%93%9C_%ED%8E%98%EC%9D%B4%EC%A7%80_949
 
-[http://en.wikipedia.org/wiki/ISO/IEC_8859-1](http://en.wikipedia.org/wiki/ISO/IEC_8859-1)http://en.wikipedia.org/wiki/ISO/IEC_8859-1
+[http://en.wikipedia.org/wiki/ISO/IEC_8859-1](http://en.wikipedia.org/wiki/ISO/IEC_8859-1)
 
-[http://en.wikipedia.org/wiki/Windows-1252](http://en.wikipedia.org/wiki/Windows-1252)http://en.wikipedia.org/wiki/Windows-1252
+[http://en.wikipedia.org/wiki/Windows-1252](http://en.wikipedia.org/wiki/Windows-1252)
 
-[http://www.iana.org/assignments/character-sets/character-sets.xhtml](http://www.iana.org/assignments/character-sets/character-sets.xhtml)http://www.iana.org/assignments/character-sets/character-sets.xhtml
+[http://www.iana.org/assignments/character-sets/character-sets.xhtml](http://www.iana.org/assignments/character-sets/character-sets.xhtml)
 
 [http://docs.oracle.com/javase/8/docs/technotes/guides/intl/encoding.doc.html](http://docs.oracle.com/javase/8/docs/technotes/guides/intl/encoding.doc.html)
 
 (혹시, HTTP나, HTML, 그리고 톰켓과 관련한 사항이 궁금하시다면 아래 글을 정독해보세요. 제일 명확한 설명인듯 하더군요.)
 
 [http://wiki.apache.org/tomcat/FAQ/CharacterEncoding](http://wiki.apache.org/tomcat/FAQ/CharacterEncoding)
-

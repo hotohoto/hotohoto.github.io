@@ -9,7 +9,8 @@ permalink: '/2013/03/%ea%b8%b0%eb%8f%85%ea%b5%90%ec%9d%b8%ec%97%90%ea%b2%8c-%ec%
 categories:
   - review
 ---
-[http://book.naver.com/bookdb/book_detail.php?bid=6425854](http://book.naver.com/bookdb/book_detail.php?bid=6425854)![](http://bookthumb.phinf.naver.net/cover/064/258/06425854.jpg?type=w150&udate=20120611)[http://book.naver.com/bookdb/book_detail.php?bid=6425854](http://book.naver.com/bookdb/book_detail.php?bid=6425854)노딩 코드
+![](http://bookthumb.phinf.naver.net/cover/064/258/06425854.jpg?type=w150&udate=20120611)
+[노딩 코드](http://book.naver.com/bookdb/book_detail.php?bid=6425854)
 
 작가
 
@@ -23,7 +24,7 @@ categories:
 
 2010.12.10
 
-[http://book.naver.com/bookdb/review.nhn?bid=6425854](http://book.naver.com/bookdb/review.nhn?bid=6425854)리뷰보기
+[리뷰보기](http://book.naver.com/bookdb/review.nhn?bid=6425854)
 
 자기 존중감과 소명.
 
@@ -44,4 +45,3 @@ categories:
 그렇다면 예수님은 우리에게 무슨 소명을 주시는가?복음의 능력을 체험하는 자로 살도록,복음을 전하는 자로 살도록, 그리고 빛과 소금의 선한 영향력을 끼치는 자로 살도록 우리를 권하고 계신가보다. 길을 알고 길을 제시하고 길을 몸소 보여주는 것. 그것이 예수님이 보여주신 리더의 삶이 아니었던가.예수님처럼 사람들의 아픔을 이해하고, 그들과 부대끼며제자를 세우고,사람들을 섬기는그런 리더가 되어야지. 때론,예수님이, 성전에서 장사하는 사람들을 향해서,가식적으로 종교인 행세를 하는 바리세인들에 대해서거침 없이 질타하셨던 것처럼, 하나님 앞에서라면때론 사람들을 거슬러서 영향력을 발휘할 수있는 사람이 되어야지.
 
 예수님이 만나주셨던 모든 사람이,곧 회계하고 돌아선건 아니었던것 처럼,사람들의 반응에 영향을 받기 보다는온전히 하나님 앞에서 중심을 잘 잡아야지.
-

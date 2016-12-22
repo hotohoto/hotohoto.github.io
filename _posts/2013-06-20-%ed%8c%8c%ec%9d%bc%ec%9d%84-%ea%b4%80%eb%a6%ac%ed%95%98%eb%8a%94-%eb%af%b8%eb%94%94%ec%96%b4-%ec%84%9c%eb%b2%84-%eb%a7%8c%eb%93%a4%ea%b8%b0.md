@@ -29,39 +29,39 @@ categories:
 
 * 클라이언트는 미디어 서버로 파일을 업로드하고 업로드 결과와 handle을 json 형식의 응답으로 받는다.
 
-* 파일 업로드 경로는[http://media.myserver.co.kr/upload/spec_name](http://media.myserver.co.kr/upload/spec_name)(기존 대형 서비스들에서는 어떻게 하는지 확인 필요..)
+* 파일 업로드 경로는 http://media.myserver.co.kr/upload/spec_name (기존 대형 서비스들에서는 어떻게 하는지 확인 필요..)
 
 * 필요한 경우 로그인 처리할 수 있어야 함. (SSO 처리 스터디 필요.)
 
 * 미디어 파일 별로 필요한 스펙을 미리 정의하여 설정 파일에 둔다.
 
-* 최대 파일의 용량
+  * 최대 파일의 용량
 
-* 최대, 최소 가로,세로 사이즈
+  * 최대, 최소 가로,세로 사이즈
 
-* 미디어 품질
+  * 미디어 품질
 
-* cropping 전략
+  * cropping 전략
 
-* 허용되는 파일 확장자
+  * 허용되는 파일 확장자
 
-* 변형 파일 생성 정책
+  * 변형 파일 생성 정책
 
-* 내용을 기반으로 하여 썸네일을 생성하기 힘든 파일에 대한 기본 이미지 제공 기능.
+  * 내용을 기반으로 하여 썸네일을 생성하기 힘든 파일에 대한 기본 이미지 제공 기능.
 
-* 임시파일 생성 정책 - 필수/선택/사용안함.
+  * 임시파일 생성 정책 - 필수/선택/사용안함.
 
-* 임시파일 삭제 정책 - m분 동안 사용하지 않았으면 삭제 가능.
+  * 임시파일 삭제 정책 - m분 동안 사용하지 않았으면 삭제 가능.
 
-* 영구파일 변환 권한 - 특정 IP
+  * 영구파일 변환 권한 - 특정 IP
 
-* 파일 삭제 권한 - 특정 IP
+  * 파일 삭제 권한 - 특정 IP
 
-* 분당 최대 허용 파일 업로드 개수. - 최대 허용개수.
+  * 분당 최대 허용 파일 업로드 개수. - 최대 허용개수.
 
 * 클라이언트는 미디어 서버에 handle을 가지고 접근한다.
 
-* [http://media.myserver.co.kr/handle/variant_code_defined_in_spec](http://media.myserver.co.kr/handle/variant_code_defined_in_spec)
+* http://media.myserver.co.kr/handle/variant_code_defined_in_spec
 
 * 파일 스펙은 이미 서비스를 시작한 시점에도 요구사항에 맞게 변경될 수 있다.
 
@@ -69,13 +69,13 @@ categories:
 
 * 서비스 거부 공격을 차단할 수 있어야 한다.
 
-* 웹서버가 미디어서버에 토큰을 요청한다.
+  * 웹서버가 미디어서버에 토큰을 요청한다.
 
-* 이 토큰은 정해진 시간 안에만 유효하다. 로그인 세션 시간 보다만 길면 된다.
+  * 이 토큰은 정해진 시간 안에만 유효하다. 로그인 세션 시간 보다만 길면 된다.
 
-* 클라이언트는 이 토큰이 포함된 URL을 통하여 미디어 서버에 파일을 업로드한다.
+  * 클라이언트는 이 토큰이 포함된 URL을 통하여 미디어 서버에 파일을 업로드한다.
 
-* 토큰이 없는 파일 업로드 요청은 처리하지 않는다.
+  * 토큰이 없는 파일 업로드 요청은 처리하지 않는다.
 
 * 보안상의 문제로 파일 삭제및 임시파일 삭제 처리 기능은 별도 서버로 구성하는 것도 고려되어야 할 수도 있다.
 
@@ -83,9 +83,9 @@ categories:
 
 * 파일 다운로드는 톰캣에서도 할 수 있게 서블릿으로 구현한다.
 
-* 설정 파일로 저장된 미디어 파일들의 위치를 자유롭게 변경할 수 있다.
+  * 설정 파일로 저장된 미디어 파일들의 위치를 자유롭게 변경할 수 있다.
 
-* [http://stackoverflow.com/questions/1812244/simplest-way-to-serve-static-data-from-outside-the-application-server-in-a-java](http://stackoverflow.com/questions/1812244/simplest-way-to-serve-static-data-from-outside-the-application-server-in-a-java)
+  * [http://stackoverflow.com/questions/1812244/simplest-way-to-serve-static-data-from-outside-the-application-server-in-a-java](http://stackoverflow.com/questions/1812244/simplest-way-to-serve-static-data-from-outside-the-application-server-in-a-java)
 
 * 썸네일 생성 요구사항 (예)
 
@@ -102,4 +102,3 @@ categories:
 * 크기별로 다른 아이콘 셋이 있을 수 있다.
 
 이상ㅋ
-
