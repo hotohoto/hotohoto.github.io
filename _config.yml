@@ -6,13 +6,14 @@ permalink:           pretty
 
 # Setup
 title:               Jollybus
-tagline:             'A Jekyll theme'
-description:         'Development, English, and Living'
+tagline:             'Development, English, and Living'
+description:         'TODO'
 url:                 http://www.jollybus.kr
 baseurl:             ''
-paginate:            5
+# paginate:            5
+
 markdown: kramdown
-gems: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
+gems: [jekyll-seo-tag, jekyll-sitemap]
 
 # About/contact
 author:
