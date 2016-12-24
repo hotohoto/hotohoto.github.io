@@ -46,7 +46,7 @@ ES2015에서는 var 과 비슷한 const 와 let이 있다. const는 상수, let�
 그리고  ES2015에서는 함수를 이렇게 정의할 수 있다.
 
 ```javascript
-const sum = (a,b) =a+b
+const sum = (a, b) => (a + b)
 ```
 
 function 키워드하고는 살짝 다르지만 거의 똑같다고 보면된다.
