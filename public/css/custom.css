@@ -3,6 +3,31 @@
   font-size: 2.35rem;
 }
 
+/* sns */
+.sns img {
+
+}
+
+.sns a {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border: 0;
+  display: inline-block;
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+}
+
+.sns a.facebook {
+  background-image: url("https://simplesharebuttons.com/images/somacro/facebook.png");
+}
+.sns a.google {
+  background-image: url("https://simplesharebuttons.com/images/somacro/google.png");
+}
+.sns a.twitter {
+  background-image: url("https://simplesharebuttons.com/images/somacro/twitter.png");
+}
+
 /* adjust margins for google adsense */
 .masthead {
   margin-bottom: 1rem;
