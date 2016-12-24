@@ -19,7 +19,7 @@ gems: [jekyll-seo-tag, jekyll-sitemap]
 author:
   name:              Hoyeong Heo
   url:               https://kr.linkedin.com/in/hotohoto82
-  # email:             markdotto@gmail.com
+  email:             hotohoto82@gmail.com
 
 # Custom vars
 version:             1.0.0
