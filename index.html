@@ -2,7 +2,9 @@
 layout: default
 title: Home
 ---
-
+<div class='container adsense-top'>
+  {% include adsense.html %}
+</div>
 <h1>All Posts</h1>
 {% assign sorted = site.categories | sort %}
 {% for category in sorted %}
