@@ -2,3 +2,54 @@
 .post-title a {
   font-size: 2.35rem;
 }
+
+/* adjust margins for google adsense */
+.masthead {
+  margin-bottom: 1rem;
+}
+
+.post {
+  margin-bottom: 2.5rem;
+}
+
+.adsense-top {
+  margin-bottom: 1rem;
+}
+
+.adsense-bottom-home-wrapper {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.related {
+  padding-top: 1rem;
+}
+
+.adsense-wrapper {
+  text-align: center;
+}
+
+.adsense-wide, .adsense-medium, .adsense-narrow {
+  display: none;
+  background-color: #f0f0f0;
+}
+
+@media (max-width: 37.999em) {
+  .adsense-narrow {
+    display: inline-block;
+    height: 100px;
+  }
+}
+
+@media (min-width: 56em) {
+  .adsense-wide {
+    display: inline-block;
+    height: 90px;
+  }
+}
+
+@media (min-width: 38em) and (max-width: 55.999em) {
+.adsense-medium {
+  display: inline-block;
+  height: 280px;
+}
