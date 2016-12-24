@@ -3,9 +3,14 @@
   font-size: 2.35rem;
 }
 
-/* sns */
-.sns img {
+.post {
+  word-wrap: break-word
+}
 
+/* sns */
+.sns {
+  text-align: right;
+  width: 100%;
 }
 
 .sns a {
