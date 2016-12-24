@@ -6,8 +6,8 @@ permalink:           pretty
 
 # Setup
 title:               Jollybus
-tagline:             'Development, English, and Living'
-description:         'TODO'
+tagline:             'Development and Living'
+description:         'A blog about the software development and my everyday life.'
 url:                 http://www.jollybus.kr
 baseurl:             ''
 # paginate:            5
