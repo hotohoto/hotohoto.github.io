@@ -61,25 +61,21 @@
 
 .adsense-wide, .adsense-medium, .adsense-narrow {
   display: none;
-  background-color: #f0f0f0;
 }
 
 @media (max-width: 37.999em) {
   .adsense-narrow {
-    display: inline-block;
-    height: 100px;
+    display: block;
   }
 }
 
 @media (min-width: 56em) {
   .adsense-wide {
-    display: inline-block;
-    height: 90px;
+    display: block;
   }
 }
 
 @media (min-width: 38em) and (max-width: 55.999em) {
 .adsense-medium {
-  display: inline-block;
-  height: 280px;
+  display: block;
 }
