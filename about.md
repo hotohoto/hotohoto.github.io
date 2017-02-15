@@ -16,4 +16,9 @@ You can find me here:
 * [https://github.com/hotohoto](https://github.com/hotohoto)
 * [http://stackoverflow.com/users/1874690/hotohoto](http://stackoverflow.com/users/1874690/hotohoto)
 
+Currently working on:
+
+* [DAVinCI LABS](https://davincilabs.ai)
+* [Solidware](https://solidware.io/)
+
 Thanks for reading!
