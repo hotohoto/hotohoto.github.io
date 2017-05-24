@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-skipAdvertisement: true
 ---
 
 <p class="message">

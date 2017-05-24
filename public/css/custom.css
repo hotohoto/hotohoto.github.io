@@ -1,81 +1,78 @@
-.post-title,
-.post-title a {
-  font-size: 2.35rem;
+body {
+  font-size: 20px;
 }
 
-.post {
-  word-wrap: break-word
+
+.jb-siteheader {
+
+}
+
+.jb-sitefooter {
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.jb-pageheader {
+  margin-top: 30px;
+}
+
+.jb-pagecontent {
+  margin-top: 30px;
+}
+
+.jb-pagecontent p, .jb-pagecontent li {
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+}
+
+.jb-related {
+  margin-top: 30px;
+}
+
+.jb-adsense {
+  margin-top: 30px;
+}
+
+.jb-pagecontent .highlight {
+  margin: 1rem -15px;
+  padding: 1rem;
+  background-color: #f9f9f9;
 }
 
 /* sns */
-.sns {
-  text-align: right;
+.jb-sns {
   width: 100%;
+  text-align: right;
 }
 
-.sns a {
+.jb-sns a {
+  display: inline-block;
+  padding: 5px;
   width: 25px;
   height: 25px;
-  padding: 5px;
   border: 0;
-  display: inline-block;
   background-size: 25px 25px;
   background-repeat: no-repeat;
 }
 
-.sns a.facebook {
-  background-image: url("https://simplesharebuttons.com/images/somacro/facebook.png");
+.jb-sns a.jb-facebook {
+  background-image: url(https://simplesharebuttons.com/images/somacro/facebook.png);
 }
-.sns a.google {
-  background-image: url("https://simplesharebuttons.com/images/somacro/google.png");
+.jb-sns a.jb-google {
+  background-image: url(https://simplesharebuttons.com/images/somacro/google.png);
 }
-.sns a.twitter {
-  background-image: url("https://simplesharebuttons.com/images/somacro/twitter.png");
-}
-
-/* adjust margins for google adsense */
-.masthead {
-  margin-bottom: 1rem;
+.jb-sns a.jb-twitter {
+  background-image: url(https://simplesharebuttons.com/images/somacro/twitter.png);
 }
 
-.post {
-  margin-bottom: 2.5rem;
+.jb-ad1 {
+  /*background-color: lightgreen;*/
 }
 
-.adsense-top {
-  margin-bottom: 1rem;
+.jb-ad2 {
+  /*background-color: lightblue;*/
 }
 
-.adsense-bottom-home-wrapper {
-  padding-top: 1rem;
-  padding-bottom: 3rem;
-}
-
-.related {
-  padding-top: 1rem;
-}
-
-.adsense-wrapper {
-  text-align: center;
-}
-
-.adsense-wide, .adsense-medium, .adsense-narrow {
-  display: none;
-}
-
-@media (max-width: 37.999em) {
-  .adsense-narrow {
-    display: block;
-  }
-}
-
-@media (min-width: 56em) {
-  .adsense-wide {
-    display: block;
-  }
-}
-
-@media (min-width: 38em) and (max-width: 55.999em) {
-.adsense-medium {
-  display: block;
+.jb-ad3 {
+  /*background-color: pink;*/
 }

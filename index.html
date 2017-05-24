@@ -5,34 +5,32 @@ title: Home
 <div class='adsense-top'>
   {% include adsense.html %}
 </div>
-<h1>All Posts</h1>
-{% assign sorted = site.categories | sort %}
-{% for category in sorted %}
-  <h2>
-    {{ category | first }}
-  </h2>
-  <ul>
-  {% for posts in category %}
-    {% for post in posts %}
-      {% if post.title %}
-        <li>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-          </a>
-          {% if post.date %}
-            <span>
-              {{ post.date | date_to_string }}
-            </span>
-          {% endif %}
-        </li>
-      {% endif %}
+<div class='container jb-pagecontent'>
+  {% assign sorted = site.categories | sort %}
+  {% for category in sorted %}
+    <h2>
+      {{ category | first }}
+    </h2>
+    <ul>
+    {% for posts in category %}
+      {% for post in posts %}
+        {% if post.title %}
+          <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              {{ post.title }}
+            </a>
+            {% if post.date %}
+              <span class='text-muted'>
+                {{ post.date | date_to_string }}
+              </span>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
+    </ul>
   {% endfor %}
-  </ul>
-{% endfor %}
-
-<div class='adsense-bottom-home-wrapper'>
-  <div class='adsense-bottom-home'>
-    {% include adsense.html %}
-  </div>
+</div>
+<div class='adsense-bottom'>
+  {% include adsense.html %}
 </div>
