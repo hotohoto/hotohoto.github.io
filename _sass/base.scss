@@ -1,0 +1,35 @@
+body {
+  font-size: 20px;
+}
+
+.jb-siteheader {
+
+}
+
+.jb-sitefooter {
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.jb-pageheader {
+  margin-top: 30px;
+}
+
+.jb-pagecontent {
+  margin-top: 30px;
+
+  p, li {
+    font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  }
+
+  .highlight {
+    margin: 1rem -15px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+  }
+}
+
+.jb-related {
+  margin-top: 30px;
+}
