@@ -1,1 +1,2 @@
-RUBYOPT="-KU -E utf-8:utf-8" bundle exec jekyll serve --port 8282
+#!/bin/bash
+RUBYOPT="-KU -E utf-8:utf-8" bundle exec jekyll serve --port 8282 --incremental
