@@ -2,7 +2,7 @@
   "name": "dday",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jollybus.kr/apps/dday",
+  "homepage": "http://www.jollybus.kr/apps/dday",
   "devDependencies": {
     "autoprefixer": "7.1.0",
     "babel-core": "6.24.1",
