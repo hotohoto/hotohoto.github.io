@@ -17,7 +17,6 @@ You can find me here:
 
 Currently working on:
 
-* [DAVinCI LABS](https://davincilabs.ai)
-* [Solidware](https://solidware.io/)
+* [DAVinCI LABS](https://davincilabs.ai) at Solidware
 
 Thanks for reading!
