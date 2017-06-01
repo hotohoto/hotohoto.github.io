@@ -1,4 +1,11 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
 body {
+  word-break: keep-all;
   font-size: 20px;
 }
 
