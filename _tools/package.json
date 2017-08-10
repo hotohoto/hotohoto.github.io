@@ -6,7 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "babel-node html2md.js",
+    "html2md": "babel-node html2md.js",
+    "rename_post_files": "babel-node rename_post_files.js",
     "lint": "eslint . ./"
   },
   "dependencies": {
