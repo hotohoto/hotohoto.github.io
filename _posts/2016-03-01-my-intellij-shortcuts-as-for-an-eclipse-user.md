@@ -1,17 +1,18 @@
 ---
+title: My IntelliJ shortcuts as for an eclipse user.
+date: 2016-03-01 19:19:21 Z
+permalink: "/2016/03/my-intellij-shortcuts-as-for-an-eclipse-user/"
+categories:
+- dev
+tags:
+- eclipse
+- IntelliJ
 id: 79
-title: 'My IntelliJ shortcuts as for an eclipse user.'
-date: 2016-03-01T19:19:21+00:00
 author: hotohoto
 layout: post
 guid: http://www.jollybus.kr/?p=79
-permalink: /2016/03/my-intellij-shortcuts-as-for-an-eclipse-user/
-categories:
-  - dev
-tags:
-  - eclipse
-  - IntelliJ
 ---
+
 Here are my favorite eclipse shortcuts, and their IntelliJ counterparts.
 
 * Close current window

@@ -1,14 +1,15 @@
 ---
+title: 무기력한 정체(停滯, stagnation)
+date: 2012-12-03 14:23:00 Z
+permalink: "/2012/12/%eb%ac%b4%ea%b8%b0%eb%a0%a5%ed%95%9c-%ec%a0%95%ec%b2%b4%e5%81%9c%e6%bb%af-stagnation/"
+categories:
+- diary
 id: 17
-title: '무기력한 정체(停滯, stagnation)'
-date: 2012-12-03T14:23:00+00:00
 author: hotohoto
 layout: post
 guid: http://hotohoto82.cafe24.com/?p=17
-permalink: '/2012/12/%eb%ac%b4%ea%b8%b0%eb%a0%a5%ed%95%9c-%ec%a0%95%ec%b2%b4%e5%81%9c%e6%bb%af-stagnation/'
-categories:
-  - diary
 ---
+
 지금은 목표도 없고 꿈도 없다.
 
 탈출구도 없고, 착한 것도 없다.

@@ -1,14 +1,15 @@
 ---
+title: Linux commands I use frequently.
+date: 2016-03-16 16:49:52 Z
+permalink: "/2016/03/linux-commands-i-use-frequently/"
+categories:
+- dev
 id: 98
-title: 'Linux commands I use frequently.'
-date: 2016-03-16T16:49:52+00:00
 author: hotohoto
 layout: post
 guid: http://www.jollybus.kr/?p=98
-permalink: /2016/03/linux-commands-i-use-frequently/
-categories:
-  - dev
 ---
+
 ### :common shell technics (pipe and redirection)
 ```
 command_to_run | grep text_to_find

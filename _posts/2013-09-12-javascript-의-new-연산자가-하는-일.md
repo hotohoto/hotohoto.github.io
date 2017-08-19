@@ -1,14 +1,15 @@
 ---
+title: javascript 의 new 연산자가 하는 일.
+date: 2013-09-12 03:49:00 Z
+permalink: "/2013/09/javascript-%ec%9d%98-new-%ec%97%b0%ec%82%b0%ec%9e%90%ea%b0%80-%ed%95%98%eb%8a%94-%ec%9d%bc/"
+categories:
+- dev
 id: 40
-title: 'javascript 의 new 연산자가 하는 일.'
-date: 2013-09-12T03:49:00+00:00
 author: hotohoto
 layout: post
 guid: http://hotohoto82.cafe24.com/?p=40
-permalink: '/2013/09/javascript-%ec%9d%98-new-%ec%97%b0%ec%82%b0%ec%9e%90%ea%b0%80-%ed%95%98%eb%8a%94-%ec%9d%bc/'
-categories:
-  - dev
 ---
+
 javascript 의 new 연산자가 하는 일을 설명하면 다음과 같다.
 
 ```

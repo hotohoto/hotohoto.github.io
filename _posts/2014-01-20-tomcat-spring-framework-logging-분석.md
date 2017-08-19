@@ -1,21 +1,22 @@
 ---
+title: tomcat + spring framework logging system 분석
+date: 2014-01-20 06:56:45 Z
+permalink: "/2014/01/tomcat-spring-framework-logging-%eb%b6%84%ec%84%9d/"
+categories:
+- dev
+tags:
+- JCL
+- Juli
+- log4j
+- slf4j
+- Spring
+- tomcat
 id: 46
-title: 'tomcat + spring framework logging system 분석'
-date: 2014-01-20T06:56:45+00:00
 author: hotohoto
 layout: post
 guid: http://hotohoto82.cafe24.com/?p=46
-permalink: '/2014/01/tomcat-spring-framework-logging-%eb%b6%84%ec%84%9d/'
-categories:
-  - dev
-tags:
-  - JCL
-  - Juli
-  - log4j
-  - slf4j
-  - Spring
-  - tomcat
 ---
+
 ## [1] 흐름
 
 톰켓 + 스프링 + log4j 를 사용할 경우 스프링이 출력한 로그는 아래 같은 모듈간 흐름을 거쳐 로그가 발생하게 된다.

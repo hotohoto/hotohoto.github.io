@@ -1,25 +1,24 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-# relative_permalinks: true
-
-# Setup
-title:               Jollybus
-tagline:             'Development and Living'
-description:         'A blog about the software development and my everyday life.'
-url:                 http://www.jollybus.kr
-baseurl:             ''
-# paginate:            5
-
+---
+title: Jollybus
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+permalink: pretty
+tagline: Development and Living
+description: A blog about the software development and my everyday life.
+url: http://www.jollybus.kr
+baseurl: ''
 markdown: kramdown
-gems: [jekyll-seo-tag, jekyll-sitemap]
-
-# About/contact
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
 author:
-  name:              Hoyeong Heo
-  url:               https://kr.linkedin.com/in/hotohoto82
-  email:             hotohoto82@gmail.com
-
-# Custom vars
-version:             1.0.0
+  name: Hoyeong Heo
+  url: https://kr.linkedin.com/in/hotohoto82
+  email: hotohoto82@gmail.com
+version: 1.0.0

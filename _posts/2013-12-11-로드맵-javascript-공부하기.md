@@ -1,14 +1,15 @@
 ---
+title: 로드맵 - JavaScript 공부하기
+date: 2013-12-11 03:50:00 Z
+permalink: "/2013/12/%eb%a1%9c%eb%93%9c%eb%a7%b5-javascript-%ea%b3%b5%eb%b6%80%ed%95%98%ea%b8%b0/"
+categories:
+- dev
 id: 45
-title: '로드맵 - JavaScript 공부하기'
-date: 2013-12-11T03:50:00+00:00
 author: hotohoto
 layout: post
 guid: http://hotohoto82.cafe24.com/?p=45
-permalink: '/2013/12/%eb%a1%9c%eb%93%9c%eb%a7%b5-javascript-%ea%b3%b5%eb%b6%80%ed%95%98%ea%b8%b0/'
-categories:
-  - dev
 ---
+
 C와 Java로 개발하는 회사에 다니다가, 처음으로 웹개발 하는 회사에 들어와 자바스크립트를 공부하면서 찾은 사이트들입니다. 직접 이용해보고 좋아서 여기저기 다른사람에게 소개했던 사이트이기도 합니다. 예제 위주로 되어 있어서 책을 읽는것 보다 훨씬 빨리 익힐 수 있는 점이 좋습니다. 대신에 정확한 개념 이해를 돕는 책을 곁하여 공부하는 것을 권해드립니다.
 
 1 단계 - 자바스크립트 기본 문법, DOM

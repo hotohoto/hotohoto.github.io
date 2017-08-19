@@ -1,18 +1,19 @@
 ---
+title: CentOS 에 OpenSSL 1.0.1g 보안 업데이트 적용
+date: 2014-04-17 00:40:57 Z
+permalink: "/2014/04/centos-%ec%97%90-openssl-101g-%eb%b3%b4%ec%95%88-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ec%a0%81%ec%9a%a9/"
+categories:
+- dev
+tags:
+- CentOS
+- linux
+- OpenSSL
 id: 47
-title: 'CentOS 에 OpenSSL 1.0.1g 보안 업데이트 적용'
-date: 2014-04-17T00:40:57+00:00
 author: hotohoto
 layout: post
 guid: http://hotohoto82.cafe24.com/?p=47
-permalink: '/2014/04/centos-%ec%97%90-openssl-101g-%eb%b3%b4%ec%95%88-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ec%a0%81%ec%9a%a9/'
-categories:
-  - dev
-tags:
-  - CentOS
-  - linux
-  - OpenSSL
 ---
+
 Heartbleed 라는 문제가 OpenSSL 에 취약점으로 등장하여 openssl 1.0.1.g 라는 버전이 나왔습니다.
 
 이걸 운영중인 CentOS에 업데이트하기 위해 다음 명령을 실행했습니다.
