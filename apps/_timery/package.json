@@ -2,7 +2,7 @@
   "name": "timery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.jollybus.kr/apps/timery",
+  "homepage": "http://www.jollybus.kr/apps/timery/",
   "devDependencies": {
     "autoprefixer": "7.1.0",
     "babel-core": "6.24.1",
@@ -42,7 +42,7 @@
     "whatwg-fetch": "2.0.3"
   },
   "dependencies": {
-    "bootstrap": "4.0.0-alpha.6",
+    "bootstrap": "^4.1.3",
     "moment": "^2.18.1",
     "query-string": "^4.3.4",
     "react": "^15.5.4",
