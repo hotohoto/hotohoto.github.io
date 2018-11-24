@@ -2,7 +2,7 @@
   "name": "timery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.jollybus.kr/apps/timery",
+  "homepage": "http://www.jollybus.kr/apps/timery/",
   "devDependencies": {
     "autoprefixer": "7.1.0",
     "babel-core": "6.24.1",
