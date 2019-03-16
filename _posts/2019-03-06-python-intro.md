@@ -4,6 +4,7 @@ date: 2019-03-06 02:00:00 +09:00
 categories:
 - dev
 layout: post
+comments: true
 ---
 
 ## Goals

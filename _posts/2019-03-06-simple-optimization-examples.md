@@ -4,6 +4,7 @@ date: 2019-03-06 02:30:00 +09:00
 categories:
 - ai
 layout: post
+comments: true
 ---
 
 We're going to minimize $x^2 + 2x + 1$ using different methods.
