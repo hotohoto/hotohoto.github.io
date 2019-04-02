@@ -46,62 +46,13 @@ $$
 {\displaystyle {\begin{aligned}\left|\bigcup _{i=1}^{n}A_{i}\right|={}&\sum _{i=1}^{n}|A_{i}|-\sum _{1\leq i<j\leq n}|A_{i}\cap A_{j}|+\cdots {}\\&{}\cdots +\sum _{1\leq i<j<k\leq n}|A_{i}\cap A_{j}\cap A_{k}|-\cdots +(-1)^{n-1}\left|A_{1}\cap \cdots \cap A_{n}\right|.\end{aligned}}}
 $$
 
-### Binomial Coefficient
-
-$$
-{\displaystyle {\begin{array}{rcl}(1{+}x)^{4}&=&{\tbinom {4}{0}}x^{0}+{\tbinom {4}{1}}x^{1}+{\tbinom {4}{2}}x^{2}+{\tbinom {4}{3}}x^{3}+{\tbinom {4}{4}}x^{4}\\&=&1+4x+6x^{2}+4x^{3}+x^{4},\end{array}}}
-$$
-
-where
-
-$$
-{\binom {n}{k}} = \text{n choose k} = {\frac {n!}{k!(n-k)!}}
-$$
-.
-
-### Ball picking
-
-Consider an infinite repository containing balls of $n$ different types. Then the following table summarizes the number of distinct ways in which $k$ balls can be picked for four common definitions of "distinct."
-
-|category|number of possible outcomes|
-|---|---|
-|ordered sampling with replacement|$n^k$|
-|ordered sampling without replacement|$P(n,k)={n\cdot (n-1)\cdot (n-2)\cdots (n-k+1)}$|
-|unordered sampling without replacement|$\binom{n}{k}$|
-|unordered sampling with replacement|$\binom{n + k - 1}{k}$|
-
-### Story Proof
-(proof by interpretation)
-
-#### example 1
-
-$$
-{\binom{n}{k}} = {\binom{n}{n-k}}
-$$
-
-Chooseing $k$ people out of $n$ people is also picking the other $n-k$ people not to choose.
-
-#### example 2
-
-$$
-n{\binom{n-1}{k-1}} = k{\binom{n}{k}}
-$$
-
-To pick a leader from a group of $k$ members,
-- we can choose a leader and make a club of $k-1$ members out of $n - 1$ people. Or,
-- we can make a club of $k$ members and choose a leader out of a group.
-
-#### example 3 - Vandermonde Identity
-
-$$
-{\binom{m+n}{k}} = {\sum_{j=0}^{k}\binom{m}{j}}{\binom{n}{k-j}}
-$$
 
 ### Birthday problem
 
 How many people do you need in order to have at least 50 percentage of chance that 2 people have the same birthday?
 
 Assumption
+
 - There is no birthday of Feb 29th. We have 365 days per a year.
 - 365 days are equally likely ignoring seasonal effects.
 - Independence of birth which means we ignores twins.
@@ -125,7 +76,6 @@ from functools import reduce
 from scipy.special import comb
 ```
 
-
 ```python
 def birthday_match (k):
     return 1 - reduce(op.mul, range(365, 365 - k, -1), 1) / (365**k)
@@ -142,7 +92,6 @@ for i in [1, 2, 3, 22, 23, 50, 100]:
     23 0.5072972343239854 253.0
     50 0.9703735795779884 1225.0
     100 0.9999996927510721 4950.0
-
 
 ### Derangement
 (Matching problem or de Montmort's problem)
@@ -196,9 +145,7 @@ P(A\cap B \cap C) = P(A) \cdot P(B) \cdot P(C)
 $$
 .
 
-
-
-###  Newton-Pepys Problem (1693)
+### Newton-Pepys Problem (1693)
 
 Which is the most probable if dice is fair?
 
@@ -218,8 +165,6 @@ $$
 
 The answer is A.
 
-
-
 ```python
 from scipy.special import comb
 
@@ -232,7 +177,6 @@ print('P(C) =', 1 - (5/6)**18 - comb(18, 1)*(1/6)*(5/6)**17 - comb(18, 2)*(1/6)*
     P(B) = 0.6186673737323085
     P(C) = 0.5973456859477229
 
-
 ### Conditional Probability
 
 Definition
@@ -242,14 +186,17 @@ P(A|B) = \frac{P(A \cap B)}{P(B)}
 $$
 
 #### Theorems
+
 1. $P(A \cap B) = P(A|B) \cdot P(B)$
 2. $P(A_1, A_2, \cdots, A_n) = P(A_1)P(A_2|A_1)P(A_3|A_1,A_2)\cdots P(A_n|A_1, \dots,A_{n-1})$
 3. Bayes' Theorem:
+
 $$
 P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
 $$
 
 #### Law of total probability
+
 If $A_1, A_2, \cdots, A_n$ partition S
 $$
 P(B) = P(B \cap A_1) + P(B \cap A_2) + \cdots + P(B \cap A_n)
@@ -257,6 +204,7 @@ $$
 .
 
 #### example 1
+
 Get random 2 cards out of standard deck.
 
 (1) What is the probability both cards are aces given the first card is an ace?
@@ -289,8 +237,6 @@ P(D|T) & = \frac{P(T|D) \cdot P(D)}{P(T)}\\
 & \approx 0.16
 \end{aligned}
 $$
-
-
 
 ```python
 import random
@@ -325,8 +271,6 @@ print('Answer(Precision):', truePositive / (truePositive + falsePositive))
     FN: 539
     Answer(Precision): 0.16319668512040214
 
-
-
 ```python
 # P(D|T)
 # = P(T|D) * P(D) / P(T)
@@ -338,8 +282,8 @@ print('Answer:', numerator/denominator)
 
     Answer: 0.16101694915254236
 
-
 ### Conditional independence
+
 $$
 P(A \cap B|C) = P(A | C) \cdot P(B | C)
 $$
@@ -369,7 +313,6 @@ P(S) & = P(S|D_1)\cdot P(D_1) + P(S|D_2) \cdot P(D_2) + P(S|D_3) \cdot P(D_3)\\
 \end{aligned}
 $$
 
-
 ```python
 from graphviz import Digraph
 
@@ -398,25 +341,16 @@ f.edge('monty 2\'', 'if you change you get a car')
 f
 ```
 
-
-
-
 ![svg](/assets/2019/output_20_0.svg)
 
-
-
 ### Simpson's Paradox
-
 
 <div style="display:flex; padding: 5%;">
 <img src='/assets/2019/DrHibbert.png' alt='Dr. Hibbert'>
 <img src='/assets/2019/DrNick.png' alt='Dr. Nick'/>
 </div>
 
-
-
 Dr. Hibbert
-
 
 | &nbsp;  | heart | band-aid |
 |---|---|---|
@@ -432,7 +366,6 @@ Dr. Nick
 
 Although Nick has succeeded more in total, Hilbert has better chance to succeed for each type of surgery.
 
-
 ### Gambler's Ruin
 
 - There are 2 gamblers, A and B.
@@ -441,8 +374,8 @@ Although Nick has succeeded more in total, Hilbert has better chance to succeed 
 - $q = P(\text{B wins a certain round}) = 1 - p$
 - A starts with i dollors, B starts with (N-i) dollors.
 
-
 Let's say
+
 - $p_i = P(\text{A wins game} | \text{A starts with i})$
 - $p_i = p \cdot p_{i+1} + q \cdot p_{i-1}$ where $(1 \leq i \leq N - 1)$
 - $p_0 = 0$ (boundary condition)
@@ -524,7 +457,6 @@ N = 200 \Longrightarrow p_i \approx 0.02
 \end{aligned}
 $$
 
-
 ```python
 def p_i (N, i, p):
     if p == 0.5:
@@ -543,7 +475,6 @@ for N in [20, 100, 200]:
     100 0.11917491985551996
     200 0.01797679001306744
 
-
 ### CDF
 
 Cumulative Densitiy Function
@@ -553,11 +484,11 @@ F(x) =  P(X \leq x) \text{, as a function of real $x$}
 $$
 
 Properties
+
 - increasing
 - right continuous
 - $F(x) \to 0$ as $x \to -\infty$
 - $F(x) \to 1$ as $x \to \infty$
-
 
 ```python
 # Example of CDF of discrete probability distribution
@@ -585,12 +516,7 @@ ax.set_xlim(data[0], data[-1])
 ax.set_ylim([-0.01, 1.01])
 ```
 
-
-
-
     (-0.01, 1.01)
-
-
 
 ### Independence of random variables
 
@@ -607,10 +533,6 @@ $$
 P(X=x, Y=y)=P(X=x)P(Y=y)
 $$
 .
-
-### Indicator random variable
-- 1: if it's the case
-- 0: otherwise
 
 ### Expected value
 
@@ -629,7 +551,7 @@ Summed over $x$ with $P(X=x) > 0$.
 
 They are the same for even dependent random variables.
 
-#### An example of picking aces.
+#### An example of picking aces
 
 - $X$ = number of aces in 5 cards without replacement
 - $X_j$ = indicator of jth card being an ace
@@ -656,7 +578,6 @@ E(X) & = 0 \cdot P(X=0) + \cdots + 5 \cdot P(X=5) \\
 \end{aligned}
 $$
 
-
 ```python
 from scipy.special import comb
 
@@ -674,104 +595,3 @@ print(5/13)
 
     0.38461538461538464
     0.38461538461538464
-
-
-### Bernoulli distribution
-$$
-X \sim Bern(p)\\
-$$
-
-(Expected Value)
-
-$$
-E(X) = P(A) = p
-$$
-
-### Binomial distribution
-
-- n draws
-- k success
-- without order
-- with replacement
-
-(Expected Value)
-
-$$
-E(X) = \sum_{k=0}^{n}{k \binom{n}{k} p^{k}q^{n-k}} = \cdots = np
-$$
-
-This can be derived easily by the linearity property of expected value.
-
-$$
-X_i \sim Bern(p)\\
-E(X) = E(X_1 + X_2 + \cdots + X_n) = np\\
-$$
-
-where $X_i$ is indicator random variables
-
-### Geometric distribution
-
-$ Geom(p)$
-- independent $Bern(p)$ trials
-- count the number of failures before 1st success
-
-PMF
-- $P(X = k) = q^kp$
-- $k \in \{0,1,2,\cdots\}$
-
-(Validation of PMF)
-
-$$
-\begin{aligned}
-\sum_{k=0}^{\infty}{q^kp} & = p \sum_{k=0}^{\infty}{q^k} \\
-& = \frac{p}{1-q}\\
-& = 1
-\end{aligned}
-$$
-
-(Expected Value)
-
-$$
-\begin{aligned}
-E(X) & = \sum_{k=0}^{\infty}{kq^kp} \\
-& = p \sum_{k=1}^{\infty}{kq^k} \qquad \text{(1)}
-\end{aligned}
-$$
-
-We can use the derivative of geometric series to solve this.
-
-$$
-\begin{aligned}
-\sum_{k=0}^{\infty}{q^k} &= \frac{1}{1-q}\\
-\sum_{k=1}^{\infty}{kq^{k-1}} &= \frac{1}{(1-q)^2}\\
-\sum_{k=1}^{\infty}{kq^k} &= \frac{q}{p^2}\\
-\end{aligned}
-$$
-
-By plugging this back into (1),
-
-$$
-E(X) = \frac{pq}{p^2} = \frac{q}{p}
-$$
-
-(Story proof)
-$$
-c = E(X)\\
-c = 0 \cdot p + (1 + c) \cdot q = q + cq\\
-c = {q \over 1 - q} = {q \over p}
-$$
-
-### Hyper-geometric distribution
-
-- total N balls
-- total K success balls
-  - there are only 2 types of balls like binomial distribution
-- n draws
-- k successes
-- without order
-- without replacement
-  - each draw is dependent to each other
-  - This is different from Binomial distribution
-  - That's why we cannot use term as we do in binomial distribution. We use N and K instead.
-
-PMF
