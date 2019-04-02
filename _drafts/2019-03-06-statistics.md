@@ -23,7 +23,7 @@ Mainly from [Statistics 110 course of Harvard University](https://www.youtube.co
 ### Naive definition of Probability
 
 $$
-P(A) = \frac{\text{# of favorable outcomes}}{\text{# of all possible outcomes}}
+P(A) = \frac{\text{\# of favorable outcomes}}{\text{\# of all possible outcomes}}
 $$
 
 - P is a capital letter meaning probability.
@@ -110,11 +110,11 @@ If we pick k > 365 the probability is 1. (Pigeonhole principle)
 If k <= 365,
 
 $$
-\begin{align}
+\begin{aligned}
 P(\text{no match}) & = \frac{365\cdot364\cdot\dots\cdot(365-k+1)}{365^k} \\
 \\
 P(\text{match}) & = 1 - P(\text{no match})
-\end{align}
+\end{aligned}
 $$
 
 
@@ -154,24 +154,24 @@ Let $A_j$ be the event j-th card mathches meaning j-th card is j.
 What is $P(A_1 \cup A_2 \cup \dots \cup A_n)$?
 
 $$
-\begin{align}
+\begin{aligned}
 P(A_j) & = \frac{1}{n}, & \text{for all $j$ over $n$}\\
 P(A_1 \cap A_2) & = \frac{(n-2)!}{n!} = \frac{1}{n\cdot(n-1)}, & \text{for $\binom{n}{2}$ cases} \\
 P(A_1 \cap A_2 \cap A_3) & = \frac{(n-3)!}{n!} = \frac{1}{n\cdot(n-1)\cdot(n-2)}, & \text{for $\binom{n}{3}$ cases} \\
 P(A_1 \cap A_2 \cap \dots \cap A_n) & = \frac{(n-k)!}{n!}
-\end{align}
+\end{aligned}
 $$
 
 So using inclusion-exclusion principle,
 
 $$
-\begin{align}
+\begin{aligned}
 P(A_1 \cup A_2 \cup \dots \cup A_n) & = P(A_1) + P(A_2) + \dots + P(A_n) - P(A_1 \cap A_2) - \dots + P(A_1 \cap A_2 \cap A_3) + \dots\\
 & = \binom{n}{1} \cdot \frac{1}{n} - \binom{n}{2} \cdot \frac{1}{n\cdot(n-1)} + \binom{n}{3} \cdot \frac{1}{n\cdot(n-1)\cdot(n-2)} - \dots + (-1)^{n+1}\cdot\binom{n}{n}\cdot\frac{1}{n!}\\
 & = n \cdot \frac{1}{n} - \frac{n\cdot(n-1)}{2!} \cdot \frac{1}{n\cdot(n-1)} + \frac{n\cdot(n-1)\cdot(n-2)}{3!} \cdot \frac{1}{n\cdot(n-1)\cdot(n-2)} - \dots + (-1)^{n+1}\cdot1\cdot\frac{1}{n!}\\
 & = 1 - \frac{1}{2!} + \frac{1}{3!} - \dots + (-1)^{n+1}\cdot\frac{1}{n!}\\
 & \approx 1 - \frac{1}{e}
-\end{align}
+\end{aligned}
 $$
 
 ### Independence
@@ -193,7 +193,8 @@ P(A\cap B) = P(A) \cdot P(B) \quad and \\
 P(B\cap C) = P(B) \cdot P(C) \quad and \\
 P(C\cap A) = P(C) \cdot P(A) \quad and\\
 P(A\cap B \cap C) = P(A) \cdot P(B) \cdot P(C)
-$$.
+$$
+.
 
 
 
@@ -206,13 +207,13 @@ Which is the most probable if dice is fair?
 - C. at least three 6's with 18 dice
 
 $$
-\begin{align}
+\begin{aligned}
 P(A) & = 1 - {\left(\frac{5}{6}\right)}^6 \approx 0.6651\\
 P(B) & = 1 - {\left(\frac{5}{6}\right)}^{12} - \binom{12}{1} \cdot {\left(\frac{1}{6}\right)}^1 \cdot {\left(\frac{5}{6}\right)}^{11} \approx 0.6187\\
 P(C) & = 1 - \sum_{k=0}^{2} \binom{18}{k} \cdot \left(\frac{1}{6}\right)^k \cdot \left(\frac{5}{6}\right)^{18-k}\\
 & = 1 - {\left(\frac{5}{6}\right)}^{18} - \binom{18}{1} \cdot {\left(\frac{1}{6}\right)}^1 \cdot {\left(\frac{5}{6}\right)^{17}}  - \binom{18}{2} \cdot \left(\frac{1}{6}\right)^{2} \cdot {\left(\frac{5}{6}\right)}^{16}\\
 & \approx 0.5973 \\
-\end{align}
+\end{aligned}
 $$
 
 The answer is A.
@@ -252,7 +253,8 @@ $$
 If $A_1, A_2, \cdots, A_n$ partition S
 $$
 P(B) = P(B \cap A_1) + P(B \cap A_2) + \cdots + P(B \cap A_n)
-$$.
+$$
+.
 
 #### example 1
 Get random 2 cards out of standard deck.
@@ -260,10 +262,10 @@ Get random 2 cards out of standard deck.
 (1) What is the probability both cards are aces given the first card is an ace?
 
 $$
-\begin{align}
+\begin{aligned}
 P(\text{both aces}|\text{have ace}) & = \frac{P(\text{both aces}, \text{have ace})}{P(\text{have ace})} =  \frac{\frac{\binom{4}{2}}{\binom{52}{2}}}{1 - \frac{\binom{52 - 4}{2}}{\binom{52}{2}}}\\
 & = \frac{1}{33}
-\end{align}
+\end{aligned}
 $$
 
 (2) What is the probability both cards are aces given the first card is the ace of Spades?
@@ -280,12 +282,12 @@ Patient get tested for a disease which afflict 1% of population. Suppose test is
 - Assumes $P(T|D) = P(T^c | D^c) = 0.95$
 
 $$
-\begin{align}
+\begin{aligned}
 P(D|T) & = \frac{P(T|D) \cdot P(D)}{P(T)}\\
 & = \frac{P(T|D) \cdot P(D)}{P(T|D) \cdot P(D) + P(T|D^c) \cdot P(D^c)}\\
 & = \frac{0.95 \cdot 0.01}{0.95 \cdot 0.01 + 0.05 \cdot 0.99}\\
 & \approx 0.16
-\end{align}
+\end{aligned}
 $$
 
 
@@ -360,11 +362,11 @@ Answer is yes.
 - Let $D_i$ be the chance $Door_i$ has a car
 
 $$
-\begin{align}
+\begin{aligned}
 P(S) & = P(S|D_1)\cdot P(D_1) + P(S|D_2) \cdot P(D_2) + P(S|D_3) \cdot P(D_3)\\
 & = 0 \cdot \frac{1}{3} + 1 \cdot \frac{1}{3} + 1 \cdot \frac{1}{3}\\
 & = \frac{2}{3}
-\end{align}
+\end{aligned}
 $$
 
 
@@ -449,10 +451,10 @@ Let's say
 Let's guess as $p_i = x^i$ then,
 
 $$
-\begin{align}
+\begin{aligned}
 x^i = p \cdot x^{i+1} + q \cdot x^{i-1}\\
 px^2 -x + q = 0
-\end{align}
+\end{aligned}
 $$
 
 $x = \large{\frac{1 \pm \sqrt{1 - 4pq}}{2p}}$
@@ -474,18 +476,18 @@ where assuming $p\neq q$ not to repeat the first term.
 By applying boundary conditions we can find A and B.
 
 $$
-\begin{align}
+\begin{aligned}
 p_0 = 0 & \Longrightarrow B = -A\\
 p_N = 1 & \Longrightarrow 1 = A + B \cdot (\frac{q}{p})^N\\
 A & = \frac{1}{1 - (\frac{q}{p})^N}
-\end{align}
+\end{aligned}
 $$
 i.e.
 
 $$
-\begin{align}
+\begin{aligned}
 p_i = \frac{1 - (\frac{q}{p})^i}{1 - (\frac{q}{p})^N}, \quad \text{if $p \neq q$}
-\end{align}
+\end{aligned}
 $$
 
 For the case of $p = q$,
@@ -494,12 +496,12 @@ we can find $p_i$ by applying [L'Hôpital's rule](https://en.wikipedia.org/wiki/
 
 $$
 \text{Let's say } x = \frac{q}{p}.\\
-\begin{align}
+\begin{aligned}
 p_i & = \lim _{x \to 1}\frac {1-x^i}{1-x^N}\\
 & = \lim _{x \to 1}\frac {1-x^i}{1-x^N}\\
 & = \lim _{x \to 1}\frac {i \cdot x^{i-1}}{N \cdot x^{N-1}}\\
 & = \frac{i}{N}
-\end{align}
+\end{aligned}
 $$
 
 So the finally we found $p_i$ like below.
@@ -515,11 +517,11 @@ $$
 Let's plug-in $i = N - i$ and $p = 0.49$, and see what we got.
 
 $$
-\begin{align}
+\begin{aligned}
 N = 20 \Longrightarrow p_i \approx 0.40\\
 N = 100 \Longrightarrow p_i \approx 0.12\\
 N = 200 \Longrightarrow p_i \approx 0.02
-\end{align}
+\end{aligned}
 $$
 
 
@@ -634,12 +636,12 @@ They are the same for even dependent random variables.
 
 (Using Linearity)
 $$
-\begin{align}
+\begin{aligned}
 E(X) & = E(X_1 + \cdots + X_5) \\
 & = E(X_1) + \cdots + E(X_5) \\
 & = 5 * P(\text{1st card ace}) \\
 & = \frac{5}{13}
-\end{align}
+\end{aligned}
 $$
 
 Even though $X_j$s are dependent each other the linearity property works!
@@ -647,11 +649,11 @@ Even though $X_j$s are dependent each other the linearity property works!
 (Plain solution)
 
 $$
-\begin{align}
+\begin{aligned}
 E(X) & = 0 \cdot P(X=0) + \cdots + 5 \cdot P(X=5) \\
 & = \sum_{i=0}^4{i \cdot \frac{\binom{4}{i}\binom{52-4}{5-i}}{\binom{52}{5}}} + 5 \cdot 0\\
 & = \frac{5}{13}
-\end{align}
+\end{aligned}
 $$
 
 
@@ -720,30 +722,30 @@ PMF
 (Validation of PMF)
 
 $$
-\begin{align}
+\begin{aligned}
 \sum_{k=0}^{\infty}{q^kp} & = p \sum_{k=0}^{\infty}{q^k} \\
 & = \frac{p}{1-q}\\
 & = 1
-\end{align}
+\end{aligned}
 $$
 
 (Expected Value)
 
 $$
-\begin{align}
+\begin{aligned}
 E(X) & = \sum_{k=0}^{\infty}{kq^kp} \\
 & = p \sum_{k=1}^{\infty}{kq^k} \qquad \text{(1)}
-\end{align}
+\end{aligned}
 $$
 
 We can use the derivative of geometric series to solve this.
 
 $$
-\begin{align}
-\sum_{k=0}^{\infty}{q^k} &= \frac{1}{1-q}\\\
+\begin{aligned}
+\sum_{k=0}^{\infty}{q^k} &= \frac{1}{1-q}\\
 \sum_{k=1}^{\infty}{kq^{k-1}} &= \frac{1}{(1-q)^2}\\
 \sum_{k=1}^{\infty}{kq^k} &= \frac{q}{p^2}\\
-\end{align}
+\end{aligned}
 $$
 
 By plugging this back into (1),
