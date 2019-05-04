@@ -7,7 +7,7 @@ layout: page
   Hi there~!
 </p>
 
-I'm a Korean software developer man who loves Jesus.
+I'm a Korean software developer who loves Jesus.
 
 You can find me here:
 

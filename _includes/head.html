@@ -4,16 +4,13 @@
 
   {% seo %}
 
-  <!-- Bootstrap 4 -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
   <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/skeleton.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/custom.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/custom.css?1">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
@@ -55,10 +52,35 @@
             "</div>"
           )
       });
-      $(".jb-pagecontent table").addClass("table")
     })
   </script>
   <!-- End of katex configuration -->
+
+  <!-- viz configuraiton-->
+  <script src="{{ site.baseurl }}/public/js/viz/viz.js"></script>
+  <script src="{{ site.baseurl }}/public/js/viz/lite.render.js"></script>
+  <script>
+    $(function(){
+      var viz = new Viz();
+
+      $("pre code.language-graphviz").each(function(){
+        var text = $(this).text()
+        var target = $(this).parent()
+        viz.renderSVGElement(text)
+        .then(function(element) {
+          target.replaceWith($(element).prop('outerHTML'))
+        })
+        .catch(error => {
+          // Create a new Viz instance (@see Caveats page for more info)
+          viz = new Viz();
+
+          // Possibly display the error
+          console.error(error);
+        });
+      });
+    })
+  </script>
+  <!-- End of viz configuraiton-->
 
   <!-- google-analytics -->
   <script>

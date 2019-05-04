@@ -1,51 +1,34 @@
-@media (min-width: 1200px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-body {
-  word-break: keep-all;
-  font-size: 20px;
-}
-
 .jb-siteheader {
-
-}
-
-.jb-sitefooter {
-  margin-top: 20px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.jb-pageheader {
-  margin-top: 30px;
-}
-
-.jb-pagecontent {
-  margin-top: 30px;
-
-  p, li {
-    font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  .navbar {
+    display: flex;
+    a {
+      display: block;
+      padding: 5px;
+    }
   }
-
+}
+.jb-pagecontent {
   img {
     max-width: 100%;
   }
 
-  .highlight {
-    margin: 1rem -15px;
-    padding: 1rem;
-    background-color: #f9f9f9;
+  svg {
+    max-width: 100%;
+  }
+
+  code {
+    overflow: auto;
   }
 
   .equation {
-    padding-top:15px;
-    padding-bottom:15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
+.jb-sitefooter {
+  margin-bottom: 20px;
+}
 
-.jb-related {
-  margin-top: 30px;
+.container {
+  max-width: 960px;
 }
