@@ -4,6 +4,7 @@ date: 2019-04-03 02:00:00 +09:00
 categories:
 - ai
 layout: post
+comments: true
 ---
 
 ## Binomial coefficient
