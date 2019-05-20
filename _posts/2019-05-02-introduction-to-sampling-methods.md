@@ -1,6 +1,6 @@
 ---
 title: Introduction to Sampling Methods
-date: 2019-04-03 03:00:00 +09:00
+date: 2019-05-02 18:00:00 +09:00
 categories:
 - ai
 layout: post
