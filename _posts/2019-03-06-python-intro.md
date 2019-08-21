@@ -8,19 +8,22 @@ comments: true
 ---
 
 ## Goals
+
 - to be able to use numpy, tensorflow, pandas, scikit-learn, jupyter notebook
 
 ## Strategy
+
 - introduce programming environments
 - expose the goal as demo
 - expose the essential concepts with minimal code examples
 - visit concepts one by one
-  - mindmap
+  - mind-map
   - in detail with many examples
 - recap previous lessons at the beginning of the lesson
 - recap current lesson at the end
 
 ## Topics
+
 - types
 - collection types
 - operators
@@ -49,6 +52,7 @@ comments: true
 ## Lessons
 
 ### 0 demo
+
 git
 jupyter notebook
 matrix multiplication
@@ -57,19 +61,23 @@ tensorflow machine learning example
 ### 1 setup
 
 install programs
+
 - git
 - vscode
 - python3
 
 git clone
 activate virtual environments
+
 ```sh
 python -m venv venv
 venv/Scripts/activate
 ```
+
 install requirements using pip
 
 try environments
+
 - REPL(Read-Eval-Print Loop)
 
 ```py
@@ -95,6 +103,7 @@ mean(3, 4)
 # this is a comment
 mean(3, 4) # will be evaluated as the average of 3 and 4
 ```
+
 - command line
   - with interactive user input
   - with arguments
@@ -102,6 +111,7 @@ mean(3, 4) # will be evaluated as the average of 3 and 4
 - jupyter notebook
 
 topics covered
+
 - environments
 - evaluation
 - function and function call
@@ -111,6 +121,7 @@ topics covered
 - comments
 
 topics exposed
+
 - git clone
 - vscode
 - virtual environment
@@ -122,6 +133,7 @@ topics exposed
 ### 2 types
 
 types
+
 - bool
 - int
 - float
@@ -171,20 +183,23 @@ int("3") + 2
 "3" + str(2)
 ```
 
-
 topics covered
+
 - dir()
 - type()
 - casting
 
 topics exposed
+
 - list
 - class
 - pass
 
 
 ### 3 operators and precedences
+
 arithmetic operators
+
 ```py
 2**3
 10%2
@@ -195,6 +210,7 @@ arithmetic operators
 ```
 
 comparison operators
+
 ```py
 (3 == 4) == False
 3 == False
@@ -203,6 +219,7 @@ comparison operators
 3 != 4
 ```
 assignment operators
+
 ```py
 a = 7
 c = b = a + 1
@@ -213,6 +230,7 @@ a //= 3
 ```
 
 logical operators
+
 ```py
 False and False
 False or True
@@ -225,13 +243,16 @@ print("Hello") or print("Hi")
 ```
 
 identity operators
+
 ```py
 3 == 3.0
 3 is 3.0
-is not
+not 3.0
+not False
 ```
 
 membership operators
+
 ```py
 5 in [2, 5, 6]
 3 in [2, 5, 6]
@@ -239,19 +260,21 @@ membership operators
 ```
 
 bitwise operators
-```py
-a = 60 # 0011 1100
-b = 13 # 0000 1101
 
-a&b    # 0000 1100 - binary and
-a|b    # 0011 1101 - binary or
-a^b    # 0011 0001 - binary xor
-~a     # 1100 0011 - binary ones complement
-a >> 4 # 0000 0011 - binary left shift
-b << 4 # 1101 0000 - binary right shift
+```py
+a = 60 # 0000 0011 1100
+b = 13 # 0000 0000 1101
+
+a&b    # 0000 0000 1100 - binary and
+a|b    # 0000 0011 1101 - binary or
+a^b    # 0000 0011 0001 - binary xor
+~a     # 1111 1100 0011 - binary 2's complement
+a >> 4 # 0000 0000 0011 - binary left shift
+b << 4 # 0000 1101 0000 - binary right shift
 ```
 
 ternery operator
+
 ```py
 a = "same" if 3==4  else "different"
 ```
@@ -268,10 +291,10 @@ a = "same" if 3==4  else "different"
 
 examples
 
-
 ### 5 function and scopes
 
 - lambda function
+
 ```py
 (lambda x: x + 1)(4)
 ```
@@ -340,7 +363,7 @@ mydict['a']
 keyset = set(mydict)
 myset = {}
 for k in mydict:
-  myset.add(mydict[])
+  myset.add(mydict[k])
 mylist = []
 for k in mydict:
   mylist.append(k * mydict[k])
@@ -386,6 +409,7 @@ x7 = [x*2 for x in range(10) if x%2==0]
 - `__call__`
 
 examples
+
 ```py
 class dummy():
   def __call__(self):
@@ -394,7 +418,9 @@ class dummy():
 d = dummy()
 d()
 ```
+
 ### 8 exception handling
+
 examples
 
 ### 9 `with` clause and file IO
@@ -406,6 +432,7 @@ examples
 examples
 
 ## References
+
 - https://docs.python.org/3/tutorial/
 - https://www.w3schools.com/python/
 - https://www.tutorialspoint.com/python/
