@@ -7,6 +7,25 @@ layout: post
 comments: true
 ---
 
+## elementary matrix
+
+- elementary matrix
+  - types
+    - Row-switching transformations
+      - The inverse of this matrix is itself
+      - The determinant is -1
+    - Row-multiplying transformations
+      - The inverse of this matrix can be made by replacing the changed element with its reciprocal
+      - The determinant is 1/m
+    - Row-addition transformations
+      - The inverse of this matrix can be made by multiplying -1 to the added element.
+      - The determinant is 1.
+
+References:
+
+- https://en.wikipedia.org/wiki/Elementary_matrix
+- http://sites.millersville.edu/bikenaga/linear-algebra/inverse/inverse.html
+
 ## linearly dependent
 
 - at least one of the vectors in a set can be defined as a linear combination of the others
@@ -255,3 +274,4 @@ vector - Hermitian matrix
 - https://en.wikipedia.org/wiki/Matrix_calculus
 - https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf
 - https://medium.com/@jonathan_hui/machine-learning-linear-algebra-a5b1658f0151
+- https://www.youtube.com/playlist?list=PL127T2Zu76FuVMq1UQnZv9SG-GFIdZfLg
