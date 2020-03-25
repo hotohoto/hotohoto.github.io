@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "react-scripts build && rm -r ../memomimo && mv build ../memomimo",
+    "deploy": "rm -rf ./build && react-scripts build && rm -rf ../memomimo && cp -r build ../memomimo",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

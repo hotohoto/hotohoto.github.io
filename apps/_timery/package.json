@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "react-scripts build && rm -r ../timery && mv build ../timery",
+    "deploy": "rm -rf ./build && react-scripts build && rm -rf ../timery && cp -r build ../timery",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
