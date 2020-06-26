@@ -7,7 +7,7 @@ layout: post
 comments: true
 ---
 
-## elementary matrix
+## Elementary matrix
 
 - elementary matrix
   - types
@@ -26,16 +26,18 @@ References:
 - https://en.wikipedia.org/wiki/Elementary_matrix
 - http://sites.millersville.edu/bikenaga/linear-algebra/inverse/inverse.html
 
-## linearly dependent
+## Linearly dependent
 
 - at least one of the vectors in a set can be defined as a linear combination of the others
 
-## linearly independent
+## Linearly independent
 
 - no vector in a set can be written as a linear combination of the others.
 - there is no solution of $x$ but the zero vector for $Ax = 0$.
 
-## linear least square
+## Ordinary least squares
+
+Ordinary least squares (OLS) is a type of linear least squares method for estimating the unknown parameters in a linear regression model.
 
 $$X\boldsymbol{\beta} = \boldsymbol{y}$$
 
@@ -128,24 +130,29 @@ $$A^{\mathsf {T}} = -A$$
 - eigenvectors are orthogonal
 - eigenvalues are imaginary numbers
 
-## unitary matrix
-
-$$Q^\ast = Q^{-1}$$
-
-- conjugate transpose matrix = inverse matrix
-
-## Hermitian matrix
-
-$$A={\overline {A^{\mathsf {T}}}}$$
-
 ## orthogonal matrix
 
-$$Q^\ast Q = QQ^\ast = I$$
+$$Q^{\mathsf {T}} Q = QQ^{\mathsf {T}} = I$$
 
 - square matrix
 - length preserving or isometric
 - unitary transformation (rotation or reflection or rotoreflection)
 - eigenvectors are the rotation axis and they can be complex numbers.
+
+## conjugate transpose
+
+$$A^\ast={\overline {A^{\mathsf {T}}}}$$
+
+## Hermitian matrix
+
+$$A=A^\ast$$
+
+## unitary matrix
+
+$$Q^\ast Q = QQ^\ast = I$$
+
+- when conjugate transpose matrix = inverse matrix
+- Given two complex vectors $x$ and $y$, multiplication by a unitary matrix $U$ preserves their inner product; that is, $⟨Ux, Uy⟩ = ⟨x, y⟩$.
 
 ## positive definite
 
@@ -200,7 +207,7 @@ $$A = Q \Lambda Q^{\mathsf {T}}$$
 
 ## SVD
 
-$$M = U\Sigma V^\ast$$
+SVD is similar to finding orthogonal matrix $V$ which still can be represented as a product of another orthogonal matrix $U$ and a diagonal matrix $\Sigma$ when $V$ is transformed by $M$.
 
 - $M$
   - $m \times n$ matrix
@@ -250,6 +257,16 @@ Picked $k$ singular values.
 ## PCA
 
 - analyze on $M^\ast M = V\Sigma^2V^\ast$
+- Data supposed to be centered to apply PCA.
+  - https://stats.stackexchange.com/a/22331/193645
+- How to do dimensionality reduction usually
+  - Standardize the d-dimensional dataset.
+  - Construct the covariance matrix.
+  - Decompose the covariance matrix into its eigenvectors and eigenvalues.
+  - Sort the eigenvalues by decreasing order to rank the corresponding eigenvectors.
+  - Select k eigenvectors which correspond to the k largest eigenvalues, where k is the dimensionality of the new feature subspace (k ≤ d).
+  - Construct a projection matrix W from the "top" k eigenvectors.
+  - Transform the d-dimensional input dataset X using the projection matrix W to obtain the new k-dimensional feature subspace.
 
 ## Gramian matrix
 
@@ -275,3 +292,4 @@ vector - Hermitian matrix
 - https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf
 - https://medium.com/@jonathan_hui/machine-learning-linear-algebra-a5b1658f0151
 - https://www.youtube.com/playlist?list=PL127T2Zu76FuVMq1UQnZv9SG-GFIdZfLg
+- https://towardsdatascience.com/principal-component-analysis-for-dimensionality-reduction-115a3d157bad
