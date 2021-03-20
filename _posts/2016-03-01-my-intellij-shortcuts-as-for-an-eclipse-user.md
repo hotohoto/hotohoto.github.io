@@ -10,7 +10,7 @@ tags:
 id: 79
 author: hotohoto
 layout: post
-guid: https://hotohoto.github.com/?p=79
+guid: https://hotohoto.github.io/?p=79
 ---
 
 Here are my favorite eclipse shortcuts, and their IntelliJ counterparts.

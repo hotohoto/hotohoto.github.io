@@ -11,7 +11,7 @@ collections:
 permalink: pretty
 tagline: Development and Living
 description: A blog about the software development and my everyday life.
-url: https://hotohoto.github.com
+url: https://hotohoto.github.io
 baseurl: ''
 markdown: kramdown
 gems:

@@ -2,7 +2,7 @@
   "name": "memomimo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hotohoto.github.com/apps/memomimo/",
+  "homepage": "https://hotohoto.github.io/apps/memomimo/",
   "dependencies": {
     "@types/jest": "^23.3.11",
     "@types/lodash": "^4.14.119",

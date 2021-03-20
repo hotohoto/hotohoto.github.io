@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://hotohoto.github.com/sitemap.xml
+Sitemap: https://hotohoto.github.io/sitemap.xml

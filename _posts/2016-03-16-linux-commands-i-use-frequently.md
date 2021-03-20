@@ -7,7 +7,7 @@ categories:
 id: 98
 author: hotohoto
 layout: post
-guid: https://hotohoto.github.com/?p=98
+guid: https://hotohoto.github.io/?p=98
 ---
 
 ### :common shell technics (pipe and redirection)
