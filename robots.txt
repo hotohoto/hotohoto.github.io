@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://www.jollybus.kr/sitemap.xml
+Sitemap: https://hotohoto.github.com/sitemap.xml

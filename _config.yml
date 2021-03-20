@@ -11,7 +11,7 @@ collections:
 permalink: pretty
 tagline: Development and Living
 description: A blog about the software development and my everyday life.
-url: http://www.jollybus.kr
+url: https://hotohoto.github.com
 baseurl: ''
 markdown: kramdown
 gems:

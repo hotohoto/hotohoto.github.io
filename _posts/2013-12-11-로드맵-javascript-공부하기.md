@@ -56,7 +56,7 @@ C와 Java로 개발하는 회사에 다니다가, 처음으로 웹개발 하�
 
 * new 연산자에 대한 해부학.
 
-[http://www.jollybus.kr/2013/12/%EB%A1%9C%EB%93%9C%EB%A7%B5-javascript-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0/](http://www.jollybus.kr/2013/12/%EB%A1%9C%EB%93%9C%EB%A7%B5-javascript-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0/)
+[https://hotohoto.github.com/2013/12/%EB%A1%9C%EB%93%9C%EB%A7%B5-javascript-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0/](https://hotohoto.github.com/2013/12/%EB%A1%9C%EB%93%9C%EB%A7%B5-javascript-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0/)
 
 * 추천 도서: JavaScript Web Applications - 모던 자바스크립트 애플리케이션 개발에 필요한 모든 이야기
 

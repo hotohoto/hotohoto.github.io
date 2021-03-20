@@ -2,7 +2,7 @@
   "name": "timery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.jollybus.kr/apps/timery/",
+  "homepage": "https://hotohoto.github.com/apps/timery/",
   "dependencies": {
     "bootstrap": "^4.2.1",
     "moment": "^2.23.0",
