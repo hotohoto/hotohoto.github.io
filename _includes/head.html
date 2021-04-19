@@ -2,8 +2,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  {% seo %}
-
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 
@@ -18,43 +16,14 @@
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-
-  <!-- katex configuration -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css" integrity="sha384-dbVIfZGuN1Yq7/1Ocstc1lUEm+AT+/rCkibIcC/OmWo5f0EA48Vf8CytHzGrSwbQ" crossorigin="anonymous">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js" integrity="sha384-2BKqo+exmr9su6dir+qCw08N2ZKRucY4PrGQPPWU1A7FtlCGjmEGFqXCv5nyM5Ij" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
-  <script type="text/javascript">
-    $(function(){
-      renderMathInElement(
-          document.body,
-          {
-              delimiters: [
-                  // {left: "$$", right: "$$", display: true},
-                  {left: "$", right: "$", display: false},
-              ]
-          }
-      );
-      $("script[type='math/tex; mode=display']").replaceWith(
-        function(){
-          var tex = $(this).text()
-          return (
-            "<div class=\"equation\">" +
-              katex.renderToString("\\displaystyle "+tex) +
-            "</div>"
-          )
-      });
-      $("script[type='math/tex']").replaceWith(
-        function(){
-          var tex = $(this).text()
-          return (
-            "<div class=\"equation\">" +
-              katex.renderToString(tex) +
-            "</div>"
-          )
-      });
-    })
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
   </script>
-  <!-- End of katex configuration -->
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
   <!-- viz configuraiton-->
   <script src="{{ site.baseurl }}/public/js/viz/viz.js"></script>
@@ -92,4 +61,7 @@
     ga('create', 'UA-73406060-1', 'auto');
     ga('send', 'pageview');
   </script>
+
+  {% seo %}
+
 </head>

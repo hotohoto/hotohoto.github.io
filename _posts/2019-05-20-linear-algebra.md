@@ -48,7 +48,7 @@ Usually this equation is overdetermined so there is no solution $\beta$.
 Instead, we want to find ${\hat \beta}$ such that
 
 $$
-{\hat \boldsymbol{\beta}} = \operatorname{arg\,min}_{\boldsymbol{\beta}} {\lVert X\boldsymbol{\beta} - \boldsymbol{y}\rVert^2}
+{\hat {\boldsymbol{\beta}}} = \operatorname{arg\,min}_{\boldsymbol{\beta}} {\lVert X\boldsymbol{\beta} - \boldsymbol{y}\rVert^2}
 $$
 
 To find the critical point we calculate the gradient value of the squared error term $S = \lVert X\boldsymbol{\beta} - \boldsymbol{y}\rVert^2$.
@@ -66,7 +66,7 @@ $$
 \end{aligned}
 $$
 
-Set $\nabla_{\boldsymbol{\beta}}S = 0$ for the critical point.
+Set $\nabla_{\boldsymbol{\beta}S = 0$ for the critical point.
 
 $$
 \begin{aligned}
@@ -79,7 +79,7 @@ $$
 So
 
 $$
-{\hat \boldsymbol{\beta}} =(X^{\mathsf {T}}X)^{-1} X^{\mathsf {T}}\boldsymbol{y} \\
+{\hat {\boldsymbol{\beta}}} =(X^{\mathsf {T}}X)^{-1} X^{\mathsf {T}}{\boldsymbol{y}} \\
 $$
 .
 

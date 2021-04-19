@@ -14,7 +14,7 @@ description: A blog about the software development and my everyday life.
 url: https://hotohoto.github.io
 baseurl: ''
 markdown: kramdown
-gems:
+plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 author:
