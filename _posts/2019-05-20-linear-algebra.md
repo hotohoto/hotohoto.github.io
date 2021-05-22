@@ -66,7 +66,7 @@ $$
 \end{aligned}
 $$
 
-Set $\nabla_{\boldsymbol{\beta}S = 0$ for the critical point.
+Set $\nabla_{\boldsymbol{\beta}}S = 0$ for the critical point.
 
 $$
 \begin{aligned}
@@ -147,12 +147,24 @@ $$A^\ast={\overline {A^{\mathsf {T}}}}$$
 
 $$A=A^\ast$$
 
+- self-adjoint matrix
+- The eigenvalues are all real.
+- Eigenvectors belonging to distinct eigenvalues are orthogonal.
+- (Spectral Theorem) There exists a unitary matrix U that diagonalizes Hermitian matrix A.
+
 ## unitary matrix
 
-$$Q^\ast Q = QQ^\ast = I$$
+Column vectors form an orthonormal set in $C^n$.
 
-- when conjugate transpose matrix = inverse matrix
+- U is unitary if and only if $Q^\ast Q = QQ^\ast = I$.
+  - when conjugate transpose matrix = inverse matrix
 - Given two complex vectors $x$ and $y$, multiplication by a unitary matrix $U$ preserves their inner product; that is, $⟨Ux, Uy⟩ = ⟨x, y⟩$.
+
+## normal matrix
+
+$A^\ast A = AA^\ast = I$
+
+- A is normal if and only if A posseses a complete orthonormal set of eigenvectors.
 
 ## positive definite
 
@@ -189,6 +201,8 @@ $$Ax = \lambda x$$
 
 - $\lambda_1 + \lambda_2 + ... + \lambda_n = \operatorname{tr}(A)$
 - $\lambda_1\lambda_2...\lambda_n = \operatorname{det}(A)$
+- Eigenvectors are nonzero.
+- Eigenvalues can be zero.
 
 ## eigendecomposition
 
@@ -231,6 +245,7 @@ SVD is similar to finding orthogonal matrix $V$ which still can be represented a
   - $M^\ast M = V\Sigma^2V^\ast$
   - $MM^\ast = U\Sigma^2U^\ast$
   - SVD always exists
+    - https://en.wikipedia.org/wiki/Singular_value_decomposition
 - applications
   - https://www.quora.com/What-is-an-intuitive-explanation-of-singular-value-decomposition-SVD
 
@@ -278,11 +293,8 @@ Picked $k$ singular values.
 - positive definite
 - applications
   - Given vectors are centered random variable, Gramian matrix is approximately
-proportional to the covariance with the scaling determined by the number of elements in the
-vector - Hermitian matrix
-  - complex square matrix
-  - the conjugate transpose matrix of a Hermitian matrix is the same matrix
-  - can be considered the extended concept of real symmetric matrix
+- equivalent to $A^T A$
+- proportional to the covariance with the scaling determined by the number of elements in the vector
 - isometry
   - a mapping that preserves distances
 

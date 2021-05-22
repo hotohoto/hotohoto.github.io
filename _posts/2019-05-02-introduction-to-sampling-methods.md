@@ -19,7 +19,7 @@ A general sampling method I can think of.
 
 It's more difficult when it comes to high dimensions.
 
-### If it was easy it would have been great
+### If it were easy it would have been great
 
 If it were easy to sample always, we could easily find global maximum
 $$\max_x f(x)$$
@@ -27,7 +27,7 @@ just by taking samples from $$\lim_{K \to \infty}e^{Kf(x)}$$.
 
 (Frequently, PDF we have is not normalized.)
 
-#### for example
+#### For example
 
 $$
 f(x) = -(x-1)^2(x+1)^2 + 1 + 0.05x^3
@@ -135,7 +135,7 @@ print(samples.shape)
 
 ![rejection_sampling_criterion.png](/assets/2019/rejection_sampling_criterion.png)
 
-### if the proposal distribution is not enveloping the target distribution efficiently
+### If the proposal distribution is not enveloping the target distribution efficiently
 
 ```py
 import numpy as np
@@ -215,7 +215,7 @@ def metropolis_hastings(f, iter):
 
         a = f(x_star) / f(x)
 
-        # can be skipped since it's symmetric (That's all about the Metropolis algorithm.)
+        # This line can be skipped since the propsed transition probability is symmetric.
         a *= multivariate_normal.pdf(x, mean=x_star, cov=proposal_cov) / multivariate_normal.pdf(x_star, mean=x, cov=proposal_cov)
 
         if np.random.rand() < a:
@@ -293,31 +293,31 @@ Design a markov chain that has a stationary distribution $\pi(x) = P(x)$ and the
 
 ##### Propose transition(conditional) probabilities
 
-$P(x\prime \mid x_t) = g(x\prime \mid x_t) \cdot A(x\prime, x_t)$
+$P(x^\prime \mid x_t) = g(x^\prime \mid x_t) \cdot A(x^\prime, x_t)$
 
-- $g(x\prime\mid x_t)$ is any proposal distribution chosen.
-- $A(x\prime,x_t)=\min \left(1,{\frac {P(x\prime)}{P(x_{t})}}{\frac {g(x_{t}\mid x\prime)}{g(x\prime\mid x_{t})}}\right)$ is acceptance probability.
+- $g(x^\prime\mid x_t)$ is any proposal distribution chosen.
+- $A(x^\prime,x_t)=\min \left(1,{\frac {P(x^\prime)}{P(x_{t})}}{\frac {g(x_{t}\mid x^\prime)}{g(x^\prime\mid x_{t})}}\right)$ is acceptance probability.
 
 ##### Show that the markov chain is reversible
 
 proof.
 
-Because either $A(x\prime,x)$ or $A(x\prime,x)$ will be 1, the equation below holds.
+Because either $A(x^\prime,x)$ or $A(x^\prime,x)$ will be 1, the equation below holds.
 
 $$
-{\frac {A(x\prime,x)}{A(x,x\prime)}}={\frac {P(x\prime)}{P(x)}}{\frac {g(x\mid x\prime)}{g(x\prime\mid x)}}
+{\frac {A(x^\prime,x)}{A(x,x^\prime)}}={\frac {P(x^\prime)}{P(x)}}{\frac {g(x\mid x^\prime)}{g(x^\prime\mid x)}}
 $$
 
 By multiplying denominators and the both side of equation, we have
 
 $$
-g(x\prime\mid x_t) \cdot A(x\prime,x_t) = g(x_t, x\prime) \cdot A(x_t, x\prime)
+g(x^\prime\mid x_t) \cdot A(x^\prime,x_t) = g(x_t, x^\prime) \cdot A(x_t, x^\prime)
 $$.
 
 Then,
 
 $$
-P(x\prime\mid x)P(x) = P(x\mid x\prime)P(x\prime)
+P(x^\prime\mid x)P(x) = P(x\mid x^\prime)P(x^\prime)
 $$.
 
 Now we showed the detailed balance property for each transition probability.
