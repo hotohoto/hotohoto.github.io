@@ -1,13 +1,13 @@
 {
-  "main.css": "/apps/memomimo/static/css/main.cf143d1a.chunk.css",
-  "main.js": "/apps/memomimo/static/js/main.8ceeece1.chunk.js",
-  "main.js.map": "/apps/memomimo/static/js/main.8ceeece1.chunk.js.map",
-  "static/js/1.a34b2f10.chunk.js": "/apps/memomimo/static/js/1.a34b2f10.chunk.js",
-  "static/js/1.a34b2f10.chunk.js.map": "/apps/memomimo/static/js/1.a34b2f10.chunk.js.map",
-  "runtime~main.js": "/apps/memomimo/static/js/runtime~main.f6a621ee.js",
-  "runtime~main.js.map": "/apps/memomimo/static/js/runtime~main.f6a621ee.js.map",
-  "static/css/main.cf143d1a.chunk.css.map": "/apps/memomimo/static/css/main.cf143d1a.chunk.css.map",
-  "index.html": "/apps/memomimo/index.html",
-  "precache-manifest.70f3c80d32e633fecd51bd11284d42a3.js": "/apps/memomimo/precache-manifest.70f3c80d32e633fecd51bd11284d42a3.js",
-  "service-worker.js": "/apps/memomimo/service-worker.js"
+  "files": {
+    "main.css": "/apps/memomimo/static/css/main.7c37b284.css",
+    "main.js": "/apps/memomimo/static/js/main.18185d8a.js",
+    "index.html": "/apps/memomimo/index.html",
+    "main.7c37b284.css.map": "/apps/memomimo/static/css/main.7c37b284.css.map",
+    "main.18185d8a.js.map": "/apps/memomimo/static/js/main.18185d8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c37b284.css",
+    "static/js/main.18185d8a.js"
+  ]
 }
