@@ -1,19 +1,17 @@
 {
-  "main.css": "/apps/timery/static/css/main.3cf1dde4.chunk.css",
-  "main.js": "/apps/timery/static/js/main.19803fed.chunk.js",
-  "main.js.map": "/apps/timery/static/js/main.19803fed.chunk.js.map",
-  "static/css/1.b838f780.chunk.css": "/apps/timery/static/css/1.b838f780.chunk.css",
-  "static/js/1.95a4bc2c.chunk.js": "/apps/timery/static/js/1.95a4bc2c.chunk.js",
-  "static/js/1.95a4bc2c.chunk.js.map": "/apps/timery/static/js/1.95a4bc2c.chunk.js.map",
-  "runtime~main.js": "/apps/timery/static/js/runtime~main.f36bcd43.js",
-  "runtime~main.js.map": "/apps/timery/static/js/runtime~main.f36bcd43.js.map",
-  "static/media/IMG_5249.JPG": "/apps/timery/static/media/IMG_5249.a31e3f03.JPG",
-  "static/media/IMG_8008.JPG": "/apps/timery/static/media/IMG_8008.964cc1a7.JPG",
-  "static/media/IMG_8257.JPG": "/apps/timery/static/media/IMG_8257.e7de9c9f.JPG",
-  "static/media/IMG_9734.JPG": "/apps/timery/static/media/IMG_9734.36c19c61.JPG",
-  "static/css/1.b838f780.chunk.css.map": "/apps/timery/static/css/1.b838f780.chunk.css.map",
-  "static/css/main.3cf1dde4.chunk.css.map": "/apps/timery/static/css/main.3cf1dde4.chunk.css.map",
-  "index.html": "/apps/timery/index.html",
-  "precache-manifest.0d5ba5e06d877d640367675856e46c55.js": "/apps/timery/precache-manifest.0d5ba5e06d877d640367675856e46c55.js",
-  "service-worker.js": "/apps/timery/service-worker.js"
+  "files": {
+    "main.css": "/apps/timery/static/css/main.f86c0fdd.css",
+    "main.js": "/apps/timery/static/js/main.d63962ab.js",
+    "static/media/IMG_9734.JPG": "/apps/timery/static/media/IMG_9734.e7bdca693091ee7c34ea.JPG",
+    "static/media/IMG_5249.JPG": "/apps/timery/static/media/IMG_5249.21ffc4573d0a4b9db9f2.JPG",
+    "static/media/IMG_8257.JPG": "/apps/timery/static/media/IMG_8257.379a3640256a5fe70acf.JPG",
+    "static/media/IMG_8008.JPG": "/apps/timery/static/media/IMG_8008.55c572444bd8bed806c3.JPG",
+    "index.html": "/apps/timery/index.html",
+    "main.f86c0fdd.css.map": "/apps/timery/static/css/main.f86c0fdd.css.map",
+    "main.d63962ab.js.map": "/apps/timery/static/js/main.d63962ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f86c0fdd.css",
+    "static/js/main.d63962ab.js"
+  ]
 }
