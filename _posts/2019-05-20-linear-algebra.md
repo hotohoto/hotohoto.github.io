@@ -23,8 +23,8 @@ comments: true
 
 References:
 
-- https://en.wikipedia.org/wiki/Elementary_matrix
-- http://sites.millersville.edu/bikenaga/linear-algebra/inverse/inverse.html
+- [https://en.wikipedia.org/wiki/Elementary_matrix](https://en.wikipedia.org/wiki/Elementary_matrix)
+- [http://sites.millersville.edu/bikenaga/linear-algebra/inverse/inverse.html](http://sites.millersville.edu/bikenaga/linear-algebra/inverse/inverse.html)
 
 ## Linearly dependent
 
@@ -245,9 +245,9 @@ SVD is similar to finding orthogonal matrix $V$ which still can be represented a
   - $M^\ast M = V\Sigma^2V^\ast$
   - $MM^\ast = U\Sigma^2U^\ast$
   - SVD always exists
-    - https://en.wikipedia.org/wiki/Singular_value_decomposition
+    - [https://en.wikipedia.org/wiki/Singular_value_decomposition](https://en.wikipedia.org/wiki/Singular_value_decomposition)
 - applications
-  - https://www.quora.com/What-is-an-intuitive-explanation-of-singular-value-decomposition-SVD
+  - [https://www.quora.com/What-is-an-intuitive-explanation-of-singular-value-decomposition-SVD](https://www.quora.com/What-is-an-intuitive-explanation-of-singular-value-decomposition-SVD)
 
 ### reduced SVD
 
@@ -273,7 +273,7 @@ Picked $k$ singular values.
 
 - analyze on $M^\ast M = V\Sigma^2V^\ast$
 - Data supposed to be centered to apply PCA.
-  - https://stats.stackexchange.com/a/22331/193645
+  - [https://stats.stackexchange.com/a/22331/193645](https://stats.stackexchange.com/a/22331/193645)
 - How to do dimensionality reduction usually
   - Standardize the d-dimensional dataset.
   - Construct the covariance matrix.
@@ -285,8 +285,8 @@ Picked $k$ singular values.
 
 ## Gramian matrix
 
-- https://en.wikipedia.org/wiki/Gramian_matrix
-- is the Hermitian matrix of inner products, whose entries are given by $G_ij = <v_i, v_j>$ angle
+- [https://en.wikipedia.org/wiki/Gramian_matrix](https://en.wikipedia.org/wiki/Gramian_matrix)
+- is the Hermitian matrix of inner products, whose entries are given by $G_{ij} = <v_i, v_j>$ angle
 - where $v_1, ..., v_n$ are
   - usually columns of a matrix V
   - in an inner product space.
@@ -300,8 +300,8 @@ Picked $k$ singular values.
 
 ## References
 
-- https://en.wikipedia.org/wiki/Matrix_calculus
-- https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf
-- https://medium.com/@jonathan_hui/machine-learning-linear-algebra-a5b1658f0151
-- https://www.youtube.com/playlist?list=PL127T2Zu76FuVMq1UQnZv9SG-GFIdZfLg
-- https://towardsdatascience.com/principal-component-analysis-for-dimensionality-reduction-115a3d157bad
+- [https://en.wikipedia.org/wiki/Matrix_calculus](https://en.wikipedia.org/wiki/Matrix_calculus)
+- [https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
+- [https://medium.com/@jonathan_hui/machine-learning-linear-algebra-a5b1658f0151](https://medium.com/@jonathan_hui/machine-learning-linear-algebra-a5b1658f0151)
+- [https://www.youtube.com/playlist?list=PL127T2Zu76FuVMq1UQnZv9SG-GFIdZfLg](https://www.youtube.com/playlist?list=PL127T2Zu76FuVMq1UQnZv9SG-GFIdZfLg)
+- [https://towardsdatascience.com/principal-component-analysis-for-dimensionality-reduction-115a3d157bad](https://towardsdatascience.com/principal-component-analysis-for-dimensionality-reduction-115a3d157bad)
