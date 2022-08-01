@@ -271,7 +271,7 @@ Picked $k$ singular values.
 
 ## PCA
 
-- analyze on $M^\ast M = V\Sigma^2V^\ast$
+- analysis on $M^\ast M = V\Sigma^2V^\ast$
 - Data supposed to be centered to apply PCA.
   - [https://stats.stackexchange.com/a/22331/193645](https://stats.stackexchange.com/a/22331/193645)
 - How to do dimensionality reduction usually
