@@ -287,44 +287,41 @@ digraph {
 
 #### Goal
 
-Design a markov chain that has a stationary distribution $\pi(x) = P(x)$ and the stationary distribution is unique.
+Design a markov chain that has a stationary distribution $\pi(x)$ such that $\pi(x) = P(x)$ and the stationary distribution is unique.
 
-#### How
-
-##### Propose transition(conditional) probabilities
+#### Propose transition(conditional) probabilities
 
 $P(x^\prime \mid x_t) = g(x^\prime \mid x_t) \cdot A(x^\prime, x_t)$
 
 - $g(x^\prime\mid x_t)$ is any proposal distribution chosen.
 - $A(x^\prime,x_t)=\min \left(1,{\frac {P(x^\prime)}{P(x_{t})}}{\frac {g(x_{t}\mid x^\prime)}{g(x^\prime\mid x_{t})}}\right)$ is acceptance probability.
 
-##### Show that the markov chain is reversible
+#### The markov chain is designed to be reversible
 
-proof.
-
-Because either $A(x^\prime,x)$ or $A(x^\prime,x)$ will be 1, the equation below holds.
-
-$$
-{\frac {A(x^\prime,x)}{A(x,x^\prime)}}={\frac {P(x^\prime)}{P(x)}}{\frac {g(x\mid x^\prime)}{g(x^\prime\mid x)}}
-$$
-
-By multiplying denominators and the both side of equation, we have
-
-$$
-g(x^\prime\mid x_t) \cdot A(x^\prime,x_t) = g(x_t, x^\prime) \cdot A(x_t, x^\prime)
-$$.
-
-Then,
+Given $P(x)$ the detailed balance condition can be represented as
 
 $$
 P(x^\prime\mid x)P(x) = P(x\mid x^\prime)P(x^\prime)
-$$.
+$$
+.
 
-Now we showed the detailed balance property for each transition probability.
+It seems to hold always, then the markov chain will have a statinonary distribution. But we need to define such a transition probability. If we let it be composed into a proposal distribution $g(x^\prime \mid x)$ and an acceptance distribution $A(x^\prime, x)$ it can be represented as $P(x^\prime \mid x) = g(x^\prime \mid x)A(x^\prime, x)$. By plugging this into the previous equation, we have.
 
-So, by definition, the markov chain is reversible, thus, it has a stationary distribution.
+$
+g(x^\prime\mid x) A(x^\prime,x)P(x) = g(x_t, x^\prime) A(x_t, x^\prime)P(x^\prime)
+$
 
-##### Show that it is also ergodic
+$
+{\frac {A(x^\prime,x)}{A(x,x^\prime)}}={\frac {P(x^\prime)}{P(x)}}{\frac {g(x\mid x^\prime)}{g(x^\prime\mid x)}}
+$
+
+Now we need to choose $A(x^\prime, x)$ that holds the equality condition above. One common choice is the Meltropolis choice.
+
+$A(x^\prime,x_t)=\min \left(1,{\frac {P(x^\prime)}{P(x_{t})}}{\frac {g(x_{t}\mid x^\prime)}{g(x^\prime\mid x_{t})}}\right)$
+
+Note that either $A(x^\prime,x)$ or $A(x^\prime,x)$ will be 1. Either way, the condition is satisfied.
+
+#### Show that it is also ergodic
 
 I couldn't find the proof, but they looks trivial for the markov chain with discrete states.
 
