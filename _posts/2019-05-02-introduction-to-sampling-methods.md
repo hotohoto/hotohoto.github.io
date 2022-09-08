@@ -15,7 +15,7 @@ A general sampling method I can think of.
 - find inverse function of CDF.
 - take a sample from uniform distribution and put the value in the function found.
 
-![sampling_by_inverse_cdf](/assets/2019/standard_normal_pdf_cdf.png)
+![sampling_by_inverse_cdf](../assets/2019/standard_normal_pdf_cdf.png)
 
 It's more difficult when it comes to high dimensions.
 
@@ -39,7 +39,7 @@ $$
 
 | $K = 1$  | $K = 5$  | $K = 10$|
 | -------- | -------- | ------- |
-|![global maximum K=1](/assets/2019/global_maximum_k1.png)|![global maximum K=5](/assets/2019/global_maximum_k5.png)|![global maximum K=10](/assets/2019/global_maximum_k10.png)|
+|![global maximum K=1](../assets/2019/global_maximum_k1.png)|![global maximum K=5](../assets/2019/global_maximum_k5.png)|![global maximum K=10](../assets/2019/global_maximum_k10.png)|
 
 ## Sampling is useful
 
@@ -85,7 +85,7 @@ print(samples.shape)
 (1500,2)
 ```
 
-![naive_sampling_result.png](/assets/2019/naive_sampling_result.png)
+![naive_sampling_result.png](../assets/2019/naive_sampling_result.png)
 
 ## Rejection sampling
 
@@ -131,9 +131,9 @@ print(samples.shape)
 (760, 2)
 ```
 
-![rejection_sampling_result_1.png](/assets/2019/rejection_sampling_result_1.png)
+![rejection_sampling_result_1.png](../assets/2019/rejection_sampling_result_1.png)
 
-![rejection_sampling_criterion.png](/assets/2019/rejection_sampling_criterion.png)
+![rejection_sampling_criterion.png](../assets/2019/rejection_sampling_criterion.png)
 
 ### If the proposal distribution is not enveloping the target distribution efficiently
 
@@ -179,11 +179,11 @@ print(samples.shape)
 (79, 2)
 ```
 
-![rejection_sampling_result_2.png](/assets/2019/rejection_sampling_result_2.png)
+![rejection_sampling_result_2.png](../assets/2019/rejection_sampling_result_2.png)
 
 ## Relationship of sampling methods
 
-![sampling methods](/assets/2019/sampling_methods_diagram.png)
+![sampling methods](../assets/2019/sampling_methods_diagram.png)
 
 ## Metropolis-Hastings algorithm
 
@@ -233,9 +233,9 @@ print(samples.shape)
 (79, 2)
 ```
 
-![rejection_sampling_result_2.png](/assets/2019/mh_result.png)
-![mh_explained.png](/assets/2019/mh_explained.png)
-![mh_proposals.png](/assets/2019/mh_proposals.png)
+![rejection_sampling_result_2.png](../assets/2019/mh_result.png)
+![mh_explained.png](../assets/2019/mh_explained.png)
+![mh_proposals.png](../assets/2019/mh_proposals.png)
 
 ### About Markov chain
 
@@ -287,44 +287,41 @@ digraph {
 
 #### Goal
 
-Design a markov chain that has a stationary distribution $\pi(x) = P(x)$ and the stationary distribution is unique.
+Design a markov chain that has a stationary distribution $\pi(x)$ such that $\pi(x) = P(x)$ and the stationary distribution is unique.
 
-#### How
-
-##### Propose transition(conditional) probabilities
+#### Propose transition(conditional) probabilities
 
 $P(x^\prime \mid x_t) = g(x^\prime \mid x_t) \cdot A(x^\prime, x_t)$
 
 - $g(x^\prime\mid x_t)$ is any proposal distribution chosen.
 - $A(x^\prime,x_t)=\min \left(1,{\frac {P(x^\prime)}{P(x_{t})}}{\frac {g(x_{t}\mid x^\prime)}{g(x^\prime\mid x_{t})}}\right)$ is acceptance probability.
 
-##### Show that the markov chain is reversible
+#### The markov chain is designed to be reversible
 
-proof.
+Given $P(x)$ the detailed balance condition can be represented as
 
-Because either $A(x^\prime,x)$ or $A(x^\prime,x)$ will be 1, the equation below holds.
+$$
+P(x^\prime\mid x)P(x) = P(x\mid x^\prime)P(x^\prime)
+$$
+.
+
+It seems to hold always, then the markov chain will have a statinonary distribution. But we need to define such a transition probability. If we let it be composed into a proposal distribution $g(x^\prime|x)$ and an acceptance distribution $A(x^\prime, x)$ it can be represented as $P(x^\prime \mid x) = g(x^\prime|x)A(x^\prime, x)$. By plugging this into the previous equation, we have.
+
+$$
+g(x^\prime\mid x) A(x^\prime,x)P(x) = g(x_t, x^\prime) A(x_t, x^\prime)P(x^\prime)
+$$
 
 $$
 {\frac {A(x^\prime,x)}{A(x,x^\prime)}}={\frac {P(x^\prime)}{P(x)}}{\frac {g(x\mid x^\prime)}{g(x^\prime\mid x)}}
 $$
 
-By multiplying denominators and the both side of equation, we have
+Now we need to choose $A(x^\prime, x)$ that holds the equality condition above. One common choice is the Meltropolis choice.
 
-$$
-g(x^\prime\mid x_t) \cdot A(x^\prime,x_t) = g(x_t, x^\prime) \cdot A(x_t, x^\prime)
-$$.
+$A(x^\prime,x_t)=\min \left(1,{\frac {P(x^\prime)}{P(x_{t})}}{\frac {g(x_{t}\mid x^\prime)}{g(x^\prime\mid x_{t})}}\right)$
 
-Then,
+Note that either $A(x^\prime,x)$ or $A(x^\prime,x)$ will be 1. Either way, the condition is satisfied.
 
-$$
-P(x^\prime\mid x)P(x) = P(x\mid x^\prime)P(x^\prime)
-$$.
-
-Now we showed the detailed balance property for each transition probability.
-
-So, by definition, the markov chain is reversible, thus, it has a stationary distribution.
-
-##### Show that it is also ergodic
+#### Show that it is also ergodic
 
 I couldn't find the proof, but they looks trivial for the markov chain with discrete states.
 
